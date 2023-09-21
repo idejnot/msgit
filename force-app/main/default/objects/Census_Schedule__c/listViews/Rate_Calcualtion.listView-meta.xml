@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rate_Calcualtion</fullName>
+    <columns>NAME</columns>
+    <columns>Subclass__c</columns>
+    <columns>Rating_Source__c</columns>
+    <columns>Location_Factors__c</columns>
+    <columns>NCCI_Exposure_Base__c</columns>
+    <columns>Policy_Base_for_Rate_Calculation__c</columns>
+    <columns>NCCI_Rate__c</columns>
+    <columns>Location_Adjustment_Factor__c</columns>
+    <columns>Experience_Rating_Modifier__c</columns>
+    <columns>NCCI_Company_LCM__c</columns>
+    <columns>Rate__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Rate Calculation</label>
+</ListView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Basic</fullName>
+        <default>false</default>
+        <label>Basic</label>
+    </customValue>
+    <customValue>
+        <fullName>Broad</fullName>
+        <default>false</default>
+        <label>Broad</label>
+    </customValue>
+    <customValue>
+        <fullName>Special</fullName>
+        <default>false</default>
+        <label>Special</label>
+    </customValue>
+    <customValue>
+        <fullName>Earthquake</fullName>
+        <default>false</default>
+        <label>Earthquake</label>
+    </customValue>
+    <customValue>
+        <fullName>Wind</fullName>
+        <default>false</default>
+        <label>Wind</label>
+    </customValue>
+    <customValue>
+        <fullName>Flood</fullName>
+        <default>false</default>
+        <label>Flood</label>
+    </customValue>
+    <description>property cause of loss</description>
+    <masterLabel>Cause of Loss</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

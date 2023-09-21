@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Brand_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Brand Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Doctors Claims Made</fullName>
+                <default>false</default>
+                <label>Doctors Claims Made</label>
+            </value>
+            <value>
+                <fullName>Doctors Occurrence Basis</fullName>
+                <default>false</default>
+                <label>Doctors Occurrence Basis</label>
+            </value>
+            <value>
+                <fullName>Fortress Claims Made</fullName>
+                <default>false</default>
+                <label>Fortress Claims Made</label>
+            </value>
+            <value>
+                <fullName>Fortress Occurrence Basis</fullName>
+                <default>false</default>
+                <label>Fortress Occurrence Basis</label>
+            </value>
+            <value>
+                <fullName>Nat Union Claims Made</fullName>
+                <default>false</default>
+                <label>Nat Union Claims Made</label>
+            </value>
+            <value>
+                <fullName>Nat Union Occurrence Basis</fullName>
+                <default>false</default>
+                <label>Nat Union Occurrence Basis</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>OMNIC New to Company NTC-APP</fullName>
+                <default>false</default>
+                <label>OMNIC New to Company NTC-APP</label>
+            </value>
+            <value>
+                <fullName>OMNIC OMS Claims Made</fullName>
+                <default>false</default>
+                <label>OMNIC OMS Claims Made</label>
+            </value>
+            <value>
+                <fullName>PIC Claims Made</fullName>
+                <default>false</default>
+                <label>PIC Claims Made</label>
+            </value>
+            <value>
+                <fullName>TDIC Claims Made</fullName>
+                <default>false</default>
+                <label>TDIC Claims Made</label>
+            </value>
+            <value>
+                <fullName>TDIC Occurrence Basis</fullName>
+                <default>false</default>
+                <label>TDIC Occurrence Basis</label>
+            </value>
+            <value>
+                <fullName>Business Travel Accident (BTA)</fullName>
+                <default>false</default>
+                <label>Business Travel Accident (BTA)</label>
+            </value>
+            <value>
+                <fullName>Kidnap, Ransom &amp; Extortion (KRE)</fullName>
+                <default>false</default>
+                <label>Kidnap, Ransom &amp; Extortion (KRE)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

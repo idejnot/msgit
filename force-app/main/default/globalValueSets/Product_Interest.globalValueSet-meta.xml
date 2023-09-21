@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Dental Professional Liability  Insurance</fullName>
+        <default>false</default>
+        <label>Dental Professional Liability Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Physician Professional Liability Insurance</fullName>
+        <default>false</default>
+        <label>Physician Professional Liability Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Nursing Professional Liability Insurance</fullName>
+        <default>false</default>
+        <label>Nursing Professional Liability Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacy Professional Liability Liability Insurance</fullName>
+        <default>false</default>
+        <label>Pharmacy Professional Liability Liability Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Allied Health Professional Professional Liability Insurance</fullName>
+        <default>false</default>
+        <label>Allied Health Professional Professional Liability Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Casualty</fullName>
+        <default>false</default>
+        <label>Commercial Casualty</label>
+    </customValue>
+    <customValue>
+        <fullName>Property</fullName>
+        <default>false</default>
+        <label>Commercial Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Consulting</fullName>
+        <default>false</default>
+        <label>Consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>Facultative</fullName>
+        <default>false</default>
+        <label>Facultative Reinsurance</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>true</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Liability</fullName>
+        <default>false</default>
+        <label>Professional Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Surety</fullName>
+        <default>false</default>
+        <label>Surety</label>
+    </customValue>
+    <customValue>
+        <fullName>Treaty</fullName>
+        <default>false</default>
+        <label>Treaty Reinsurance</label>
+    </customValue>
+    <masterLabel>Product Interest</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

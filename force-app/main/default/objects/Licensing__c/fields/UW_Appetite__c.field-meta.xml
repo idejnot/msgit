@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UW_Appetite__c</fullName>
+    <description>Preferred lines to UW</description>
+    <externalId>false</externalId>
+    <inlineHelpText>UW appetite</inlineHelpText>
+    <label>UW Appetite</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>UW_Appetite</valueSetName>
+    </valueSet>
+</CustomField>

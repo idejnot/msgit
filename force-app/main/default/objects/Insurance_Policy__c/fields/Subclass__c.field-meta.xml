@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subclass__c</fullName>
+    <externalId>false</externalId>
+    <label>Subclass</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Major_Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Subclass</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Engineering</controllingFieldValue>
+            <valueName>Boiler &amp; Machinery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineering</controllingFieldValue>
+            <valueName>CAR/ EAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Engineering</controllingFieldValue>
+            <valueName>Engineering Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+            <valueName>Group Life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+            <valueName>Individual Life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+            <valueName>Long-Term Disability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+            <valueName>Personal Accident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+            <valueName>Life Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+            <valueName>Life Whole Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical</controllingFieldValue>
+            <valueName>Group Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical</controllingFieldValue>
+            <valueName>Hospital Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical</controllingFieldValue>
+            <valueName>Individual Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical</controllingFieldValue>
+            <valueName>Malpractice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical</controllingFieldValue>
+            <valueName>Physical Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical</controllingFieldValue>
+            <valueName>Medical Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical</controllingFieldValue>
+            <valueName>Medical Whole Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>Airline Hull</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>Airline Hull and Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>Airline Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>Business Interruption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>General Aviation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>Product Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>War</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviation</controllingFieldValue>
+            <valueName>Whole Aviation Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Auto Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Combined E&amp;O/ D&amp;O</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Contingency</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Directors &amp; Officers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Employers Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Errors &amp; Omissions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Business Travel Accident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>General Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Kidnap, Ransom &amp; Extortion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Casualty Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Product Liability Casualty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Professional Liability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Umbrella</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Whole Casualty Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <valueName>Workers Compensation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <controllingFieldValue>Multi-Line</controllingFieldValue>
+            <valueName>Multi-Line</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marine</controllingFieldValue>
+            <valueName>Marine Cargo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marine</controllingFieldValue>
+            <valueName>Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marine</controllingFieldValue>
+            <valueName>General Marine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marine</controllingFieldValue>
+            <valueName>Hull</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marine</controllingFieldValue>
+            <valueName>Inland Marine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marine</controllingFieldValue>
+            <valueName>Yacht</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marine</controllingFieldValue>
+            <valueName>Marine Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property Auto (PD)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property Composite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property Fire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property Hail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property Natural Perils</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property Political Risks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property All Perils</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Terrorism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Trade Credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Whole Property Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Space</controllingFieldValue>
+            <valueName>Space In-orbit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Space</controllingFieldValue>
+            <valueName>Space Launch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Space</controllingFieldValue>
+            <valueName>Space Life</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Space</controllingFieldValue>
+            <valueName>Space Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surety</controllingFieldValue>
+            <valueName>Surety Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surety</controllingFieldValue>
+            <valueName>Surety Miscellaneous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surety</controllingFieldValue>
+            <valueName>Surety Fidelty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Surety</controllingFieldValue>
+            <valueName>Surety Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weather</controllingFieldValue>
+            <valueName>Weather Derivative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weather</controllingFieldValue>
+            <valueName>Weather Single City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weather</controllingFieldValue>
+            <valueName>Weather Multiple City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weather</controllingFieldValue>
+            <valueName>Weather Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

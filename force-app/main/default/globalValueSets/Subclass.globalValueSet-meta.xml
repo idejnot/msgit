@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Group Life</fullName>
+        <default>false</default>
+        <label>Group Life</label>
+    </customValue>
+    <customValue>
+        <fullName>Individual Life</fullName>
+        <default>false</default>
+        <label>Individual Life</label>
+    </customValue>
+    <customValue>
+        <fullName>Long-Term Disability</fullName>
+        <default>false</default>
+        <label>Long-Term Disability</label>
+    </customValue>
+    <customValue>
+        <fullName>Personal Accident</fullName>
+        <default>false</default>
+        <label>Personal Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>Life Other</fullName>
+        <default>false</default>
+        <label>Life Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Life Whole Account</fullName>
+        <default>false</default>
+        <label>Life Whole Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Group Medical</fullName>
+        <default>false</default>
+        <label>Group Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital Liability</fullName>
+        <default>false</default>
+        <label>Hospital Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Individual Medical</fullName>
+        <default>false</default>
+        <label>Individual Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>Malpractice</fullName>
+        <default>false</default>
+        <label>Malpractice</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical Liability</fullName>
+        <default>false</default>
+        <label>Physical Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Other</fullName>
+        <default>false</default>
+        <label>Medical Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Whole Account</fullName>
+        <default>false</default>
+        <label>Medical Whole Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Airline Hull</fullName>
+        <default>false</default>
+        <label>Airline Hull</label>
+    </customValue>
+    <customValue>
+        <fullName>Airline Hull and Liability</fullName>
+        <default>false</default>
+        <label>Airline Hull and Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Airline Liability</fullName>
+        <default>false</default>
+        <label>Airline Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Interruption</fullName>
+        <default>false</default>
+        <label>Business Interruption</label>
+    </customValue>
+    <customValue>
+        <fullName>General Aviation</fullName>
+        <default>false</default>
+        <label>General Aviation</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Liability</fullName>
+        <default>false</default>
+        <label>Product Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>War</fullName>
+        <default>false</default>
+        <label>War</label>
+    </customValue>
+    <customValue>
+        <fullName>Whole Aviation Account</fullName>
+        <default>false</default>
+        <label>Whole Aviation Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Liability</fullName>
+        <default>false</default>
+        <label>Auto Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Combined E&amp;O/ D&amp;O</fullName>
+        <default>false</default>
+        <label>Combined E&amp;O/ D&amp;O</label>
+    </customValue>
+    <customValue>
+        <fullName>Contingency</fullName>
+        <default>false</default>
+        <label>Contingency</label>
+    </customValue>
+    <customValue>
+        <fullName>Directors &amp; Officers</fullName>
+        <default>false</default>
+        <label>Directors &amp; Officers</label>
+    </customValue>
+    <customValue>
+        <fullName>Employers Liability</fullName>
+        <default>false</default>
+        <label>Employers Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Errors &amp; Omissions</fullName>
+        <default>false</default>
+        <label>Errors &amp; Omissions</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Travel Accident</fullName>
+        <default>false</default>
+        <label>Business Travel Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>General Liability</fullName>
+        <default>false</default>
+        <label>General Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Kidnap, Ransom &amp; Extortion</fullName>
+        <default>false</default>
+        <label>Kidnap, Ransom &amp; Extortion</label>
+    </customValue>
+    <customValue>
+        <fullName>Casualty Other</fullName>
+        <default>false</default>
+        <label>Casualty Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Liability Casualty</fullName>
+        <default>false</default>
+        <label>Product Liability Casualty</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Liability</fullName>
+        <default>false</default>
+        <label>Professional Liability</label>
+    </customValue>
+    <customValue>
+        <fullName>Umbrella</fullName>
+        <default>false</default>
+        <label>Umbrella</label>
+    </customValue>
+    <customValue>
+        <fullName>Whole Casualty Account</fullName>
+        <default>false</default>
+        <label>Whole Casualty Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Workers Compensation</fullName>
+        <default>false</default>
+        <label>Workers Compensation</label>
+    </customValue>
+    <customValue>
+        <fullName>Marine Cargo</fullName>
+        <default>false</default>
+        <label>Marine Cargo</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy</fullName>
+        <default>false</default>
+        <label>Energy</label>
+    </customValue>
+    <customValue>
+        <fullName>General Marine</fullName>
+        <default>false</default>
+        <label>General Marine</label>
+    </customValue>
+    <customValue>
+        <fullName>Hull</fullName>
+        <default>false</default>
+        <label>Hull</label>
+    </customValue>
+    <customValue>
+        <fullName>Inland Marine</fullName>
+        <default>false</default>
+        <label>Inland Marine</label>
+    </customValue>
+    <customValue>
+        <fullName>Yacht</fullName>
+        <default>false</default>
+        <label>Yacht</label>
+    </customValue>
+    <customValue>
+        <fullName>Marine Other</fullName>
+        <default>false</default>
+        <label>Marine Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Auto (PD)</fullName>
+        <default>false</default>
+        <label>Property Auto (PD)</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Composite</fullName>
+        <default>false</default>
+        <label>Property Composite</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Fire</fullName>
+        <default>false</default>
+        <label>Property Fire</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Hail</fullName>
+        <default>false</default>
+        <label>Property Hail</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Natural Perils</fullName>
+        <default>false</default>
+        <label>Property Natural Perils</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Other</fullName>
+        <default>false</default>
+        <label>Property Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Political Risks</fullName>
+        <default>false</default>
+        <label>Property Political Risks</label>
+    </customValue>
+    <customValue>
+        <fullName>Property All Perils</fullName>
+        <default>false</default>
+        <label>Property All Perils</label>
+    </customValue>
+    <customValue>
+        <fullName>Terrorism</fullName>
+        <default>false</default>
+        <label>Terrorism</label>
+    </customValue>
+    <customValue>
+        <fullName>Trade Credit</fullName>
+        <default>false</default>
+        <label>Trade Credit</label>
+    </customValue>
+    <customValue>
+        <fullName>Whole Property Account</fullName>
+        <default>false</default>
+        <label>Whole Property Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Space In-orbit</fullName>
+        <default>false</default>
+        <label>Space In-orbit</label>
+    </customValue>
+    <customValue>
+        <fullName>Space Launch</fullName>
+        <default>false</default>
+        <label>Space Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>Space Life</fullName>
+        <default>false</default>
+        <label>Space Life</label>
+    </customValue>
+    <customValue>
+        <fullName>Space Other</fullName>
+        <default>false</default>
+        <label>Space Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Surety Contract</fullName>
+        <default>false</default>
+        <label>Surety Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Surety Miscellaneous</fullName>
+        <default>false</default>
+        <label>Surety Miscellaneous</label>
+    </customValue>
+    <customValue>
+        <fullName>Surety Fidelty</fullName>
+        <default>false</default>
+        <label>Surety Fidelty</label>
+    </customValue>
+    <customValue>
+        <fullName>Surety Other</fullName>
+        <default>false</default>
+        <label>Surety Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Weather Derivative</fullName>
+        <default>false</default>
+        <label>Weather Derivative</label>
+    </customValue>
+    <customValue>
+        <fullName>Weather Single City</fullName>
+        <default>false</default>
+        <label>Weather Single City</label>
+    </customValue>
+    <customValue>
+        <fullName>Weather Multiple City</fullName>
+        <default>false</default>
+        <label>Weather Multiple City</label>
+    </customValue>
+    <customValue>
+        <fullName>Weather Other</fullName>
+        <default>false</default>
+        <label>Weather Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi-Line</fullName>
+        <default>false</default>
+        <label>Multi-Line</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Other</fullName>
+        <default>false</default>
+        <label>Other Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Boiler &amp; Machinery</fullName>
+        <default>false</default>
+        <label>Boiler &amp; Machinery</label>
+    </customValue>
+    <customValue>
+        <fullName>CAR/ EAR</fullName>
+        <default>false</default>
+        <label>CAR/ EAR</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering Other</fullName>
+        <default>false</default>
+        <label>Engineering Other</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Pet Insurance</fullName>
+        <default>false</default>
+        <label>Pet Insurance</label>
+    </customValue>
+    <description>a more specific description of what type of business the contract covers</description>
+    <masterLabel>Subclass</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

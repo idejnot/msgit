@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory__c</fullName>
+    <externalId>false</externalId>
+    <label>Territory</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>The United States, Puerto Rico, and Canada</fullName>
+                <default>false</default>
+                <label>The United States, Puerto Rico, and Canada</label>
+            </value>
+            <value>
+                <fullName>International waters or airspace</fullName>
+                <default>false</default>
+                <label>International waters or airspace</label>
+            </value>
+            <value>
+                <fullName>All parts of the world</fullName>
+                <default>false</default>
+                <label>All parts of the world</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

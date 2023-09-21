@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMARRT_N2G_Rating_Manual</fullName>
+    <columns>NAME</columns>
+    <columns>Carrier__c</columns>
+    <columns>Subclass__c</columns>
+    <columns>Factors__c</columns>
+    <columns>Exposure_Base__c</columns>
+    <columns>Rate__c</columns>
+    <columns>loss_cost_multiplier__c</columns>
+    <columns>Increased_Limits_Factors__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Carrier__c</field>
+        <operation>contains</operation>
+        <value>Harley,Nationwide,generali,scott</value>
+    </filters>
+    <label>SMARRT N2G Rating Manual</label>
+</ListView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Agricultural</fullName>
+        <default>false</default>
+        <label>Agricultural</label>
+    </customValue>
+    <customValue>
+        <fullName>BOP</fullName>
+        <default>false</default>
+        <label>BOP</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Auto</fullName>
+        <default>false</default>
+        <label>Business Auto</label>
+    </customValue>
+    <customValue>
+        <fullName>CGL</fullName>
+        <default>false</default>
+        <label>CGL</label>
+    </customValue>
+    <customValue>
+        <fullName>Flood</fullName>
+        <default>false</default>
+        <label>Flood</label>
+    </customValue>
+    <customValue>
+        <fullName>Inland Marine</fullName>
+        <default>false</default>
+        <label>Inland Marine</label>
+    </customValue>
+    <customValue>
+        <fullName>Package</fullName>
+        <default>false</default>
+        <label>Package</label>
+    </customValue>
+    <customValue>
+        <fullName>Property</fullName>
+        <default>false</default>
+        <label>Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Umbrella</fullName>
+        <default>false</default>
+        <label>Umbrella</label>
+    </customValue>
+    <customValue>
+        <fullName>Workers Comp</fullName>
+        <default>false</default>
+        <label>Workers Comp</label>
+    </customValue>
+    <description>Insurance LOBs</description>
+    <masterLabel>Line of Business</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

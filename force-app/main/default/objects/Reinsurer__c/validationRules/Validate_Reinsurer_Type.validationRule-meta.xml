@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Reinsurer_Type</fullName>
+    <active>false</active>
+    <description>ensure accounts selected are either reinsurers or syndiacate</description>
+    <errorConditionFormula>Not(ISPICKVAL(Reinsurer__r.Type, &quot;Reinsurer&quot;))</errorConditionFormula>
+    <errorDisplayField>Reinsurer__c</errorDisplayField>
+    <errorMessage>Placing entity must be Reinsurer</errorMessage>
+</ValidationRule>

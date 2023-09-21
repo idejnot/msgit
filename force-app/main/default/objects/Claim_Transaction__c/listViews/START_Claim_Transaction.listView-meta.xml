@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>START_Claim_Transaction</fullName>
+    <columns>Insurance_Claim__c</columns>
+    <columns>NAME</columns>
+    <columns>Amount_Paid__c</columns>
+    <columns>Settlement_or_Judgement_Amount__c</columns>
+    <columns>Reserve_Amount__c</columns>
+    <columns>Status__c</columns>
+    <columns>Comments__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>START Claim Transaction</label>
+</ListView>

@@ -1,0 +1,124 @@
+<apex:page standardController="Insurance_Quote__c" renderAs="pdf">
+<head>
+      
+    <style>
+    
+    </style>
+</head>
+
+<body>
+    
+<p align='left'>    
+
+<apex:image url="{!$Resource.N2Glogo}" width="30" height="10"/> 
+
+{!Insurance_Quote__c.Insurance_Policy__r.producer__r.name}
+<br>{!Insurance_Quote__c.Insurance_Policy__r.Producer__r.billingstreet}</br>
+<br>{!Insurance_Quote__c.Insurance_Policy__r.producer__r.billingcity}, {!Insurance_Quote__c.Insurance_Policy__r.producer__r.billingstate} {!Insurance_Quote__c.Insurance_Policy__r.producer__r.billingpostalcode}</br>
+
+</p>
+ 
+<p align ='center'>
+     
+    Insurance Quote Letter Sample<br></br>
+This Quote Shall Not Be Considered Evidence Of Insurance     
+ 
+</p>
+
+<br><b>Named Insured:</b></br>
+<br>{!Insurance_Quote__c.insured__c}</br>
+<br>{!Insurance_Quote__c.Insurance_Policy__r.Insured_Contact__r.name},
+{!Insurance_Quote__c.Insurance_Policy__r.Insured_Contact__r.title}</br>
+
+<br>{!Insurance_Quote__c.Insurance_Policy__r.Insured_Contact__r.mailingstreet}</br>
+<br>{!Insurance_Quote__c.Insurance_Policy__r.Insured_Contact__r.mailingcity}, {!Insurance_Quote__c.Insurance_Policy__r.Insured_Contact__r.mailingstate} {!Insurance_Quote__c.Insurance_Policy__r.Insured_Contact__r.mailingpostalcode}</br>
+<br> </br>
+
+<br><B> Proposed Coverage:</B></br>
+   
+<br>Product:</br>
+<Apex:outputText value="{!Insurance_Quote__c.Insurance_Policy__r.Insurance_Product__r.name}"/>
+
+<br>Effective Date: &nbsp; <apex:outputText value="{0,date,long}">
+        <apex:param value="{!Insurance_Quote__c.Policy_Effective_Date__c}"/>
+        </apex:outputText></br>
+
+
+<br>Expiration Date:&nbsp; <apex:outputText value="{0,date,long}">
+        <apex:param value="{!Insurance_Quote__c.Policy_Expiration_Date__c}"/>
+        </apex:outputText></br>
+
+<br>Policy Premium: &nbsp;$<Apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.Total_Program_Premium__c}"/></br>
+
+
+<P align ='center'>
+Forms and Endorsements: Please see attached schedule of proposed forms and endorsements   
+</P>
+
+
+<p>
+This quote was sent &nbsp;
+<apex:outputText value="{0,date,long}"><apex:param value="{!Insurance_Quote__c.CreatedDate}"/></apex:outputText>
+and is only for your review
+</p>
+   
+<p>Thank you <apex:outputText value=" {!Insurance_Quote__c.Insurance_Policy__r.Insured_Contact__r.firstname}"/> for choosing N2G.</p>
+
+<P align="center">
+
+</P>
+
+<P align="center">
+Underwriting Manager
+</P>
+
+
+<p style="page-break-before: always;">
+
+    <table style='width:100%'>
+
+        <tr><th align='center' colspan='3'><b>Premium Schedule</b></th></tr>
+        <tr><td>&nbsp;</td></tr>
+
+<tr>
+    <th align='center'>Coverage</th>
+    <th align='center'>Carrier</th>
+    <th align='center'>Premium</th>
+</tr>   
+    
+<tr><td style='border: solid 1px #000;'>General Liability</td>
+    <td style='border: solid 1px #000;'>&nbsp;<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.START_Rating_Tool_GL__r.Carrier__r.name}"/></td>
+    <td style='border: solid 1px #000;'>&nbsp;$<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.Premiums_GL__c}"/></td>
+    </tr>
+<tr><td style='border: solid 1px #000;'>Commercial Automobile Program</td>
+     <td style='border: solid 1px #000;'>&nbsp;<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.START_Rating_Tool_CAP__r.Carrier__r.name}"/></td>
+    <td style='border: solid 1px #000;'>&nbsp;$<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.Premiums_CAP__c}"/></td>
+    </tr>
+    
+<tr><td style='border: solid 1px #000;'>Workers Compensation</td>
+     <td style='border: solid 1px #000;'>&nbsp;<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.START_Rating_Tool_WC__r.Carrier__r.name}"/></td>
+    <td style='border: solid 1px #000;'>&nbsp;$<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.Premiums_WC__c}"/></td>
+    </tr>
+
+<tr ><td style='border: solid 1px #000;'>Umbrella</td>
+     <td style='border: solid 1px #000;'>&nbsp;<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.START_Rating_Tool_umb__r.Carrier__r.name}"/></td>
+    <td style='border: solid 1px #000;'>&nbsp;$<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.Premiums_Umb__c}"/></td>
+    </tr>
+    
+    <tr><td style='border: solid 1px #000;'>Professional Liability</td>
+         <td style='border: solid 1px #000;'>&nbsp;<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.START_Rating_Tool_pl__r.Carrier__r.name}"/></td>
+    <td style='border: solid 1px #000;'>&nbsp;$<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.Premiums_PL__c}"/></td>
+    </tr>
+    
+        
+        <tr><td style='border: solid 1px #000;'>Commercial Property</td>
+         <td style='border: solid 1px #000;'>&nbsp;<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.START_Rating_Tool_CProp__r.Carrier__r.name}"/></td>
+    <td style='border: solid 1px #000;'>&nbsp;$<apex:outputField value="{!Insurance_Quote__c.Insurance_Policy__r.Premiums_CProp__c}"/></td>
+    </tr>
+        
+        
+</table>
+
+</p>
+</body>
+</apex:page>

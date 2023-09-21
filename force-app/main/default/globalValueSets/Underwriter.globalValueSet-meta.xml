@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Assigned</fullName>
+        <default>true</default>
+        <label>Not Assigned</label>
+    </customValue>
+    <customValue>
+        <fullName>Amanda Colasuonno</fullName>
+        <default>false</default>
+        <label>Amanda Colasuonno</label>
+    </customValue>
+    <customValue>
+        <fullName>Daniel Tague</fullName>
+        <default>false</default>
+        <label>Daniel Tague</label>
+    </customValue>
+    <customValue>
+        <fullName>Jennifer Winters</fullName>
+        <default>false</default>
+        <label>Jennifer Winters</label>
+    </customValue>
+    <customValue>
+        <fullName>Joel Mason</fullName>
+        <default>false</default>
+        <label>Joel Mason</label>
+    </customValue>
+    <customValue>
+        <fullName>Joseph Vanderhoff</fullName>
+        <default>false</default>
+        <label>Joseph Vanderhoff</label>
+    </customValue>
+    <customValue>
+        <fullName>Kenneth Ratajczyk</fullName>
+        <default>false</default>
+        <label>Kenneth Ratajczyk</label>
+    </customValue>
+    <customValue>
+        <fullName>Priscella Mack</fullName>
+        <default>false</default>
+        <label>Priscella Mack</label>
+    </customValue>
+    <customValue>
+        <fullName>Rob Harry</fullName>
+        <default>false</default>
+        <label>Rob Harry</label>
+    </customValue>
+    <customValue>
+        <fullName>Robert Santoro</fullName>
+        <default>false</default>
+        <label>Robert Santoro</label>
+    </customValue>
+    <customValue>
+        <fullName>Teri Vavricek</fullName>
+        <default>false</default>
+        <label>Teri Vavricek</label>
+    </customValue>
+    <customValue>
+        <fullName>Warren Berey</fullName>
+        <default>false</default>
+        <label>Warren Berey</label>
+    </customValue>
+    <customValue>
+        <fullName>Yoely Franco</fullName>
+        <default>false</default>
+        <label>Yoely Franco</label>
+    </customValue>
+    <masterLabel>Underwriter</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

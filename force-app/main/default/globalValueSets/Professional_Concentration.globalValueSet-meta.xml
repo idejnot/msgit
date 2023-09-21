@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ambulatory care nursing</fullName>
+        <default>false</default>
+        <label>Ambulatory care nursing</label>
+    </customValue>
+    <customValue>
+        <fullName>Anesthesia technician</fullName>
+        <default>false</default>
+        <label>Anesthesia technician</label>
+    </customValue>
+    <customValue>
+        <fullName>Anesthesiology, including pain medicine</fullName>
+        <default>false</default>
+        <label>Anesthesiology, including pain medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Audiology</fullName>
+        <default>false</default>
+        <label>Audiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardiac Surgery</fullName>
+        <default>false</default>
+        <label>Cardiac Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Computerized Tomography</fullName>
+        <default>false</default>
+        <label>Computerized Tomography</label>
+    </customValue>
+    <customValue>
+        <fullName>Critical care nursing</fullName>
+        <default>false</default>
+        <label>Critical care nursing</label>
+    </customValue>
+    <customValue>
+        <fullName>Dental anesthesiology</fullName>
+        <default>false</default>
+        <label>Dental anesthesiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Dental hygienist</fullName>
+        <default>false</default>
+        <label>Dental hygienist</label>
+    </customValue>
+    <customValue>
+        <fullName>Dental public health</fullName>
+        <default>false</default>
+        <label>Dental public health</label>
+    </customValue>
+    <customValue>
+        <fullName>Dermatology</fullName>
+        <default>false</default>
+        <label>Dermatology</label>
+    </customValue>
+    <customValue>
+        <fullName>Diagnostic Radiology and Radiation Oncology</fullName>
+        <default>false</default>
+        <label>Diagnostic Radiology and Radiation Oncology</label>
+    </customValue>
+    <customValue>
+        <fullName>Diagnostic Radiology only</fullName>
+        <default>false</default>
+        <label>Diagnostic Radiology only</label>
+    </customValue>
+    <customValue>
+        <fullName>Dispensing assistant</fullName>
+        <default>false</default>
+        <label>Dispensing assistant</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency Medicine</fullName>
+        <default>false</default>
+        <label>Emergency Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Endodontics</fullName>
+        <default>false</default>
+        <label>Endodontics</label>
+    </customValue>
+    <customValue>
+        <fullName>Gastroenterology</fullName>
+        <default>false</default>
+        <label>Gastroenterology</label>
+    </customValue>
+    <customValue>
+        <fullName>General Dentistry</fullName>
+        <default>false</default>
+        <label>General Dentistry</label>
+    </customValue>
+    <customValue>
+        <fullName>General Surgery, excluding bariatric surgery</fullName>
+        <default>false</default>
+        <label>General Surgery, excluding bariatric surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>General Surgery, including bariatric surgery</fullName>
+        <default>false</default>
+        <label>General Surgery, including bariatric surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Gynecology only</fullName>
+        <default>false</default>
+        <label>Gynecology only</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Medicine</fullName>
+        <default>false</default>
+        <label>Internal Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Medicine, including cardiac catheterization</fullName>
+        <default>false</default>
+        <label>Internal Medicine, including cardiac catheterization</label>
+    </customValue>
+    <customValue>
+        <fullName>Neurosurgery</fullName>
+        <default>false</default>
+        <label>Neurosurgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Obstetrics and Gynecology</fullName>
+        <default>false</default>
+        <label>Obstetrics and Gynecology</label>
+    </customValue>
+    <customValue>
+        <fullName>Ophthalmology</fullName>
+        <default>false</default>
+        <label>Ophthalmology</label>
+    </customValue>
+    <customValue>
+        <fullName>Oral and maxillofacial pathology</fullName>
+        <default>false</default>
+        <label>Oral and maxillofacial pathology</label>
+    </customValue>
+    <customValue>
+        <fullName>Oral and maxillofacial radiology</fullName>
+        <default>false</default>
+        <label>Oral and maxillofacial radiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Oral and maxillofacial surgery</fullName>
+        <default>false</default>
+        <label>Oral and maxillofacial surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Oral medicine</fullName>
+        <default>false</default>
+        <label>Oral medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Orofacial pain</fullName>
+        <default>false</default>
+        <label>Orofacial pain</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthodontics</fullName>
+        <default>false</default>
+        <label>Orthodontics</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthopedic Surgery, excluding spinal surgery</fullName>
+        <default>false</default>
+        <label>Orthopedic Surgery, excluding spinal surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Orthopedic Surgery, including spinal surgery</fullName>
+        <default>false</default>
+        <label>Orthopedic Surgery, including spinal surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Otolaryngology, including otolaryngological cosmetic plastic surgery</fullName>
+        <default>false</default>
+        <label>Otolaryngology, including otolaryngological cosmetic plastic surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Pathology and/or Hematology</fullName>
+        <default>false</default>
+        <label>Pathology and/or Hematology</label>
+    </customValue>
+    <customValue>
+        <fullName>Pediatric dentistry</fullName>
+        <default>false</default>
+        <label>Pediatric dentistry</label>
+    </customValue>
+    <customValue>
+        <fullName>Pediatric nursing</fullName>
+        <default>false</default>
+        <label>Pediatric nursing</label>
+    </customValue>
+    <customValue>
+        <fullName>Pediatrics</fullName>
+        <default>false</default>
+        <label>Pediatrics</label>
+    </customValue>
+    <customValue>
+        <fullName>Periodontics</fullName>
+        <default>false</default>
+        <label>Periodontics</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacist</fullName>
+        <default>false</default>
+        <label>Pharmacist</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmacy technician</fullName>
+        <default>false</default>
+        <label>Pharmacy technician</label>
+    </customValue>
+    <customValue>
+        <fullName>Phlebotomist</fullName>
+        <default>false</default>
+        <label>Phlebotomist</label>
+    </customValue>
+    <customValue>
+        <fullName>Physical therapists</fullName>
+        <default>false</default>
+        <label>Physical therapists</label>
+    </customValue>
+    <customValue>
+        <fullName>Plastic and Reconstructive Surgery</fullName>
+        <default>false</default>
+        <label>Plastic and Reconstructive Surgery</label>
+    </customValue>
+    <customValue>
+        <fullName>Prosthodontics</fullName>
+        <default>false</default>
+        <label>Prosthodontics</label>
+    </customValue>
+    <customValue>
+        <fullName>Psychiatry</fullName>
+        <default>false</default>
+        <label>Psychiatry</label>
+    </customValue>
+    <customValue>
+        <fullName>Radiographer</fullName>
+        <default>false</default>
+        <label>Radiographer</label>
+    </customValue>
+    <customValue>
+        <fullName>Speech Therapy</fullName>
+        <default>false</default>
+        <label>Speech Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Surgical nursing</fullName>
+        <default>false</default>
+        <label>Surgical nursing</label>
+    </customValue>
+    <customValue>
+        <fullName>Vascular Surgery</fullName>
+        <default>false</default>
+        <label>Vascular Surgery</label>
+    </customValue>
+    <description>are of specialization (e.g., type of physician)</description>
+    <masterLabel>Professional Concentration</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

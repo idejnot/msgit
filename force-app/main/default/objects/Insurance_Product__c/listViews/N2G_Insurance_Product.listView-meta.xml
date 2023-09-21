@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N2G_Insurance_Product</fullName>
+    <columns>NAME</columns>
+    <columns>Carrier__c</columns>
+    <columns>Product_Type__c</columns>
+    <columns>START_Rating_Tool__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Carrier__c</field>
+        <operation>contains</operation>
+        <value>N2G,Harl,Scott,Nationwide,gener</value>
+    </filters>
+    <label>N2G Insurance Product</label>
+</ListView>

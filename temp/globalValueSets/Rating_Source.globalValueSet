@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ISO</fullName>
+        <default>false</default>
+        <label>ISO</label>
+    </customValue>
+    <customValue>
+        <fullName>CDI</fullName>
+        <default>false</default>
+        <label>CDI</label>
+    </customValue>
+    <customValue>
+        <fullName>NCCI</fullName>
+        <default>false</default>
+        <label>NCCI</label>
+    </customValue>
+    <customValue>
+        <fullName>State WC Bureau</fullName>
+        <default>false</default>
+        <label>State WC Bureau</label>
+    </customValue>
+    <customValue>
+        <fullName>Surety Association of America (SAA)</fullName>
+        <default>false</default>
+        <label>Surety Association of America (SAA)</label>
+    </customValue>
+    <customValue>
+        <fullName>American Association of Insurance Services, Inc. (AAIS)</fullName>
+        <default>false</default>
+        <label>American Association of Insurance Services, Inc. (AAIS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Rating Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Reinsurance</fullName>
+        <default>false</default>
+        <label>Reinsurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Fees</fullName>
+        <default>false</default>
+        <label>Fees</label>
+    </customValue>
+    <customValue>
+        <fullName>Brokerage Only</fullName>
+        <default>false</default>
+        <label>Brokerage Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Derivative/ Capital Markets</fullName>
+        <default>false</default>
+        <label>Derivative/ Capital Markets</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard</fullName>
+        <default>false</default>
+        <label>Standard</label>
+    </customValue>
+    <customValue>
+        <fullName>Cession Excess</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cession Excess</label>
+    </customValue>
+    <customValue>
+        <fullName>RPP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RPP</label>
+    </customValue>
+    <customValue>
+        <fullName>Risk XL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Risk XL</label>
+    </customValue>
+    <customValue>
+        <fullName>OLW</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLW</label>
+    </customValue>
+    <customValue>
+        <fullName>Cat XL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cat XL</label>
+    </customValue>
+    <customValue>
+        <fullName>Surplus</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Surplus</label>
+    </customValue>
+    <customValue>
+        <fullName>Quota Share</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Quota Share</label>
+    </customValue>
+    <customValue>
+        <fullName>Stop Loss</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Stop Loss</label>
+    </customValue>
+    <description>Reinsurance Contract Type</description>
+    <masterLabel>Contract Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

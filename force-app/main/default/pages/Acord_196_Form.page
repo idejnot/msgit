@@ -1,0 +1,2302 @@
+<apex:page standardController="Insurance_Policy__c" extensions="AddressFieldController" >
+      
+    <html>
+        <head>
+            <title> ACORD FORM</title>
+        </head>
+        
+        <body lang='EN-US' style='tab-interval:.5in'>
+            
+            <div class='WordSection1'>
+                
+                <!-- Form Heading  -->
+                
+<table class='MsoNormalTable' border='0' cellspacing='0' cellpadding='0' style='border-collapse:collapse;mso-table-layout-alt:fixed;mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+                    
+<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes' >
+                       
+<td width='163' colspan='6' valign='top' style='width:1.7in;border:solid windowtext 1.0pt;
+border-right:none;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+solid windowtext .75pt;mso-border-bottom-alt:solid windowtext .75pt;
+background:#CCCCCC;mso-shading:windowtext;mso-pattern:gray-20 auto;padding:0in 5.4pt 0in 5.4pt'>
+                         
+                            
+<p class='MsoNormal' align='center' style='text-align:center'>
+<span style='font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:Braggadocio'>
+     ACORD</span><sub>
+<span style='font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:Symbol;
+mso-ascii-font-family:Braggadocio;mso-hansi-font-family:Braggadocio;
+color:black;mso-color-alt:windowtext;mso-char-type:symbol;mso-symbol-font-family:Symbol'>
+
+    <span style='mso-char-type:symbol;mso-symbol-font-family:Symbol'></span></span></sub>
+    <span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+</td>
+                       
+<td width='366' colspan='11' valign='top' style='width:274.5pt;border:solid windowtext 1.0pt;
+border-right:none;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+solid windowtext .75pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                            
+<p class='MsoNormal' align='center' style='text-align:center'>
+<span style='font-size:14.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+<span style='mso-spacerun:yes'> </span>
+<b style='mso-bidi-font-weight:normal'>
+    CERTIFICATE OF INSURANCE</b></span>
+<span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+</td>
+                                           
+<td width='205' colspan='2' valign='top' style='width:153.9pt;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+<span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+ISSUE DATE (MM/DD/YY): {! Month(Today())}/{! day(Today())}/{! Year(Today())} </span></p>
+<p class='MsoNormal'><span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;
+font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+</td>
+</tr>
+                                     
+                    
+  <!-- Line 1  Producer, Disclaimer -->                   
+                    
+<tr style='mso-yfti-irow:1;height:43.05pt;mso-height-rule:exactly'>
+                       
+ <td width='325' colspan='11' valign='top' style='width:244.05pt;border-top:none;
+border-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+padding:0in 5.4pt 0in 5.4pt;height:43.05pt;mso-height-rule:exactly'>
+<p class='MsoNormal'>
+<span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    <b>PRODUCER:</b>&nbsp;{!Insurance_Policy__c.Producer__r.name}   </span></p>                                                 
+ <p>{!Insurance_Policy__c.Producer__r.BillingStreet} &nbsp; </p>
+ <p> {! Insurance_Policy__c.Producer__r.BillingCity}, 
+{! Insurance_Policy__c.Producer__r.BillingState} &nbsp;
+</p>
+                                                     
+<!--<p class='MsoNormal'>
+<span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+<p class='MsoNormal'>
+<span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>-->
+ </td>
+                                      
+                        
+<td width='409' colspan='8' valign='top' style='width:306.75pt;border:none;
+border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+padding:0in 5.4pt 0in 5.4pt;height:43.05pt;mso-height-rule:exactly'>
+<p class='MsoNormal' style='text-align:justify'>
+    <span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+THIS CERTIFICATE IS ISSUED AS A MATTER OF INFORMATION ONLY AND CONFERS NO RIGHTS UPON THE CERTIFICATE HOLDER.
+    <span style='mso-spacerun:yes'> </span>
+THIS CERTIFICATE DOES NOT AMEND, EXTEND OR ALTER THE COVERAGE AFFORDED BY THE POLICIES BELOW.
+</span>
+<span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+</td>
+</tr>
+                                            
+     
+  <!-- Line 2  Insured, Carriers-->                
+                
+<tr style='mso-yfti-irow:2;height:23.25pt;mso-height-rule:exactly'>
+                    
+<td width='325' colspan='11' valign='top' style='width:244.05pt;border-top:none;
+border-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:23.25pt;mso-height-rule:exactly'>
+<p class='MsoNormal'>
+    <span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+                    </td>
+                    
+<td width='409' colspan='8' valign='top' style='width:306.75pt;border-top:solid windowtext 1.0pt;
+border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+ mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+padding:0in 5.4pt 0in 5.4pt;height:23.25pt;mso-height-rule:exactly'>
+<p class='MsoNormal' align='center' style='text-align:center;line-height:150%'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Arial",sans-serif;
+mso-bidi-font-family:"Times New Roman";position:relative;top:11.0pt;mso-text-raise:-11.0pt'>
+    COMPANIES AFFORDING COVERAGE</span></b>
+<span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+                    </td>
+                    </tr>  
+                
+<tr style='mso-yfti-irow:3;height:27.0pt;mso-height-rule:exactly'>
+
+    <td width='325' colspan='11' valign='top' style='width:244.05pt;border-top:none;
+border-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+padding:0in 5.4pt 0in 5.4pt;height:27.0pt;mso-height-rule:exactly'>
+<p class='MsoNormal'><span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    &nbsp; </span></p>
+                    </td>
+                    
+<td width='409' colspan='8' valign='top' style='width:306.75pt;border-top:solid windowtext 1.0pt;
+border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+padding:0in 5.4pt 0in 5.4pt;height:27.0pt;mso-height-rule:exactly'>
+<p class='MsoNormal' style='tab-stops:16.25pt'><span style='font-size:8.0pt;
+mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    COMPANY </span>
+    <b style='mso-bidi-font-weight:normal'>
+        <span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+            <span style='mso-tab-count:1'> </span></span></b><span style='font-size:
+8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+<p class='MsoNormal' style='tab-stops:16.25pt'><span style='font-size:8.0pt;
+mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    <span style='mso-tab-count:1'> </span></span>
+    <b style='mso-bidi-font-weight:normal'>
+        <span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            
+A {!Insurance_Policy__c.Carrier_Name__c}
+                            
+<span style='mso-tab-count:2'> </span></span></b>
+    <span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+                    </td>
+                </tr>
+                
+<tr style='mso-yfti-irow:4;height:21.0pt'>
+
+    <td width='325' colspan='11' valign='top' style='width:244.05pt;border-top:solid windowtext 1.0pt;
+border-left:solid windowtext 1.0pt;border-bottom:none;border-right:none;
+mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:21.0pt'>
+<p class='MsoNormal'>
+    <span style='font-size:8.0pt;mso-bidi-font-size:10.0pt; font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+        <b>INSURED:</b> &nbsp;{! Insurance_Policy__c.Insured_Contact__r.Account.Name}</span>
+<span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+ <p> {! Insurance_Policy__c.Insured_Contact__r.Account.BillingStreet} &nbsp; </p>
+  </span></p>
+                    </td>
+                    
+<td width='409' colspan='8' valign='top' style='width:306.75pt;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:21.0pt'>
+<p class='MsoNormal' style='tab-stops:16.25pt'><span style='font-size:8.0pt;
+mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    COMPANY   </span></p>
+    
+<p class='MsoNormal' style='tab-stops:16.25pt 44.1pt'><b style='mso-bidi-font-weight:normal'>
+<span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    <span style='mso-tab-count:1'> </span>
+    B  
+    <span style='mso-tab-count:2'> </span></span></b><span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+<span style='mso-tab-count:2'> </span>  </span></p>
+                    
+                    </td>
+                </tr>
+                
+<tr style='mso-yfti-irow:5;height:21.0pt'>
+
+    <td width='325' colspan='11' valign='top' style='width:244.05pt;border:none;
+border-left:solid windowtext 1.0pt;mso-border-left-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:21.0pt'>
+<p class='MsoNormal'><span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    {! Insurance_Policy__c.Insured_Contact__r.Account.BillingCity},{! Insurance_Policy__c.Producer__r.BillingState} {! Insurance_Policy__c.Insured_Contact__r.Account.BillingPostalCode} &nbsp; </span></p>
+                    </td>
+                    
+<td width='409' colspan='8' valign='top' style='width:306.75pt;border:solid windowtext 1.0pt;
+border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:21.0pt'>
+<p class='MsoNormal' style='tab-stops:16.25pt'>
+    <span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    COMPANY   </span></p>
+    <p class='MsoNormal' style='tab-stops:16.25pt 44.1pt'><b style='mso-bidi-font-weight:normal'>
+<span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    <span style='mso-tab-count:1'> </span>
+    C   
+<span style='mso-tab-count:1'> </span></span></b>
+<span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'><span style='mso-tab-count:2'> </span></span><span
+                                                                                                                                                                                                                                                                                                                                                                                             style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+                    </td>    
+                </tr>
+
+
+<!--Line 6 Company D -->
+
+<tr style='mso-yfti-irow:6;height:30.15pt'>
+  <td width='325' colspan='11' valign='top' style='width:244.05pt;border:none;
+  border-left:solid windowtext 1.0pt;mso-border-left-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:30.15pt'>
+  <p class='MsoNormal'><span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+    <td width='409' colspan='8' valign='top' style='width:306.75pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+  solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:30.15pt'>
+  <p class='MsoNormal' style='tab-stops:16.25pt'>
+      <span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      COMPANY   </span></p>
+  <p class='MsoNormal' style='tab-stops:16.25pt 20.75pt 44.1pt'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'>
+      <span style='mso-tab-count:1'> </span> D   <span
+  style='mso-tab-count:1'> </span></span></b>
+      <span style='font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+ </tr>
+
+                <!--Line 7 Coverages -->
+
+ <tr style='mso-yfti-irow:7'>
+  
+     <td width='734' colspan='19' valign='top' style='width:7.65in;border:solid windowtext 1.0pt;
+  border-bottom:none;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  background:#CCCCCC;mso-shading:windowtext;mso-pattern:gray-20 auto;padding:0in 5.4pt 0in 5.4pt'>
+      
+  <p class='MsoNormal'><b style='mso-bidi-font-weight:normal'>
+      <span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext'>
+          COVERAGES</span></b><b
+  style='mso-bidi-font-weight:normal'>
+      <span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></b></p>
+  </td>
+ </tr>
+
+
+<!--Line 8 Section 8 Disclaimer -->
+                
+  <tr style='mso-yfti-irow:8'>          
+  <td width='734' colspan='19' valign='top' style='width:7.65in;border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' style='text-align:justify'><span style='font-size:7.0pt; mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:
+  "Times New Roman"'>
+  THIS IS TO CERTIFY THAT THE POLICIES OF INSURANCE LISTED BELOW HAVE BEEN ISSUED TO THE INSURED NAMED ABOVE FOR THE POLICY PERIOD INDICATED,   
+      <span class='GramE'>NOTWITHSTANDING<span style='mso-spacerun:yes'>
+  </span>ANY</span> REQUIREMENT, TERM OR CONDITION OF ANY CONTRACT OR OTHER DOCUMENT WITH RESPECT TO WHICH THIS CERTIFICATE MAY BE ISSUED OR MAY PERTAIN.   
+      <span style='mso-spacerun:yes'> </span>THE INSURANCE AFFORDED BY THE</span><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> </span><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:
+  "Times New Roman"'>POLICIES DESCRIBED HEREIN IS SUBJECT TO ALL THE TERMS, EXCLUSIONS AND CONDITIONS OF SUCH POLICIES.<span style='mso-spacerun:yes'>
+  </span>LIMITS SHOWN MAY HAVE BEEN REDUCED BY PAID CLAIMS.</span><span
+  style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+
+</tr>
+
+                     <!-- Section 9 Line 3  Limits Column Headers -->  
+   
+                
+ <tr style='mso-yfti-irow:9'>
+  
+     <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+ 
+ <p class='MsoNormal'>     
+ <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>    
+ </span></p>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+CO LTR  </span></p>
+  </td>
+  
+ <td width='180' colspan='8' valign='top' style='width:134.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+          TYPE OF INSURANCE  </span></p>
+  </td>
+  
+     <td width='90'  valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:solid windowtext .75pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:solid windowtext .75pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+ <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+ POLICY NUMBER  </span></p>
+  </td>
+                 
+                
+ <td width='96' Colspan='3' valign='top'  style='width:66.65pt;border:none;
+border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal' align='center' style='text-align:center'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    POLICY EFFECTIVE DATE   </span></p>
+<!--<p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    DATE (MM/DD/YY)  </span></p>-->
+</td>
+                                
+<td width='96' Colspan='2' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:solid windowtext .75pt;
+mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:solid windowtext .75pt;
+mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal' align='center' style='text-align:center'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+        POLICY EXPIRATION DATE   </span></p>
+<!--<p class='MsoNormal' align='center' style='text-align:center'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+        DATE (MM/DD/YY)  </span></p>-->
+                </td>
+
+<td width='248' colspan='4' valign='top' style='width:186.35pt;border:none;
+border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal' align='center' style='text-align:center'>
+<span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-bidi-font-family:"Times New Roman"'>
+    LIMITS   </span></p>
+        </td>
+            </tr>
+                                        
+                <!-- Line 10 General Aggregate text -->
+                         
+                
+ <tr style='mso-yfti-irow:10'>
+  <td width='31' valign='top' style='width:23.4pt;border:solid windowtext 1.0pt;
+  border-bottom:none;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+                   <td width='180' colspan='8' valign='top' style='width:134.65pt;border:none;
+  border-top:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      COMMERCIAL GENERAL LIABILITY</span>
+      <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+ 
+<td width='90' valign='top' style='width:67.85pt;border:solid windowtext 1.0pt;
+  border-bottom:none;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+ <td width='89' colspan='4' valign='top' style='width:66.65pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+ 
+<td width='96' valign='top' style='width:71.9pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+<td width='145' colspan='3' valign='top' style='width:108.95pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      GENERAL AGGREGATE</span>
+ <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span>
+    </p>
+  </td>
+  
+ <td width='103' valign='top' style='width:77.4pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' style='tab-stops:right .8in'><span style='font-size:7.0pt;
+  mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $   <apex:outputField value="{!Insurance_Policy__c.General_Aggregate_Limit__c}"/> 
+      
+ <span style='mso-tab-count:1'> </span>  </span></p>
+   </td>
+ </tr>
+            
+  <!-- Line 11     Commercial General Liability text -->          
+                
+<tr style='mso-yfti-irow:11'>
+  
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+          &nbsp; </span></p>
+  </td>
+  
+  <td width='24' valign='top' style='width:.25in;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+          &nbsp; </span></p>
+  </td>
+
+<!-- solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt-->                                      
+<td width='156' colspan='7' valign='top' style='width:116.65pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+    <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial Narrow",sans-serif'>
+    AGGREGATE LIMIT APPLIES PER: <apex:outputField value="{!Insurance_Policy__c.Limit_Applies_Per__c}"/> </span>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+</td>
+                    
+<td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+        &nbsp; </span></p>
+                    </td>
+                    
+<td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+    font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    &nbsp; </span></p>
+                    </td>
+                    
+ <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+    <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+        &nbsp; </span></p>
+                    </td>
+                    
+<td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;
+border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+    <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    PRODUCTS-COMP/OP AGG</span>
+<span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>   </span></p>
+                    </td>
+                    
+<td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+    <p class='MsoNormal' style='tab-stops:right .8in'>
+        <span style='font-size:7.0pt;
+mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+        
+       $  <apex:outputField value="{!Insurance_Policy__c.Products_and_Completed_Operations_Aggreg__c}"/>  
+            <span style='mso-tab-count:1'> </span>  </span></p>
+</td>
+                    
+</tr>
+      
+<!-- Line 12 claims made and personal adv injury text -->
+
+<tr style='mso-yfti-irow:12;height:8.25pt'>
+<td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+ border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+ <p class='MsoNormal'>
+     <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+         &nbsp; </span></p>
+</td>
+                    
+<td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+ mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+background:#CCCCCC;mso-shading:windowtext;mso-pattern:gray-20 auto;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal' align='center' style='text-align:center'>
+<span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    &nbsp; </span></p>
+                    </td>
+                    
+ <td width='18' valign='top' style='width:13.4pt;border:solid windowtext 1.0pt;
+ border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+ solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+ <p class='MsoNormal' align='center' style='text-align:center'>
+ <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+                            mso-bidi-font-family:"Times New Roman"'>
+     &nbsp; </span></p>
+                    </td>
+<!-- 78 58.6-->
+ <td width='42' valign='top' style='width:31.6pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial Narrow",sans-serif'>
+    CLAIMS MADE</span>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+                    </td>
+                    
+<td width='18' colspan='3' valign='top' style='width:13.5pt;border:solid windowtext 1.0pt;
+border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+        &nbsp; </span></p>
+  </td>
+                    
+<td width='42' colspan='2' valign='top' style='width:31.15pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial Narrow",sans-serif'>
+    OCCUR</span>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+                    </td>
+                    
+<td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+    &nbsp; </span></p>
+                    </td>
+                    
+ <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal' style='tab-stops:right .8in'><span style='font-size:7.0pt;
+mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family: "Times New Roman"'>
+    &nbsp; </span></p>
+                    </td>
+                    
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            &nbsp; </span></p>
+                    </td>
+                    
+<td width='145' colspan='3' valign='top' style='width:108.95pt;border:solid windowtext 1.0pt;
+border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+                          font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    PERSONAL &amp; ADV. INJURY </span>
+                            <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+                            font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+                    </td>
+                    
+<td width='103' valign='top' style='width:77.4pt;border:solid windowtext 1.0pt;
+border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+<p class='MsoNormal' style='tab-stops:right .8in'>
+    <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:
+                            "Times New Roman"'>$ <apex:outputField value="{!Insurance_Policy__c.Personal_Advertising_Injury__c}"/> </span></p>
+                    </td>
+                </tr>
+                
+          
+               <!--Line 13  Owner and contractors and each occurrecnce -->
+                
+<tr style='mso-yfti-irow:13'>
+ <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+                     border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+                     solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+                       font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            &nbsp; </span></p>
+                    </td>
+                    
+<td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal' align='center' style='text-align:center'>
+<span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+mso-bidi-font-family:"Times New Roman"'>
+    &nbsp; </span></p>
+                    </td>
+                    
+<td width='156' colspan='7' valign='top' style='width:116.65pt;padding:0in 5.4pt 0in 5.4pt'>
+ <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial Narrow",sans-serif'>
+                           
+     *</span>
+     
+<span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+                    </td>
+                    
+<td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+<span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            &nbsp; </span></p>
+</td>
+                    
+<td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+<span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                                &nbsp; </span></p>
+                    </td>
+                    
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            &nbsp; </span></p>
+                    </td>
+                    
+<td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;
+border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+    <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+LIMIT EACH OCCURRENCE </span></p>
+                    </td>
+                    
+<td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal' style='tab-stops:right .8in'><span style='font-size:7.0pt;
+mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+$ <apex:outputField value="{!Insurance_Policy__c.Each_Occurence__c}"/> 
+    <span style='mso-tab-count:1'> </span>  </span></p>
+                    </td>
+                </tr>
+                              
+
+<!-- line 14 Fire Damage -->
+
+<tr style='mso-yfti-irow:14'>
+<td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal'>
+    <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+         font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            &nbsp; </span></p>
+                    </td>
+                    
+    <td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+                      border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+                       mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal' align='center' style='text-align:center'>
+                            <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+                             mso-bidi-font-family:"Times New Roman"'>
+                                &nbsp; </span></p>
+                    </td>
+                   
+    <td width='156' colspan='7' valign='top' style='width:116.65pt;border:none;
+                   border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal' align='center' style='text-align:center'>
+                            <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+                         mso-bidi-font-family:"Times New Roman"'>
+                                &nbsp; </span></p>
+                    </td>
+                    
+                    <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+                      solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+                      mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+                        font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+                            &nbsp; </span></p>
+                    </td>
+                    
+<td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+                       border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+                        font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            &nbsp; </span></p>
+                    </td>
+                    
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+                            mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'>
+                            <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+                            font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                                &nbsp; </span></p>
+                    </td>
+                    
+                    <td width='145' colspan='3' valign='top' style='width:108.95pt;border:solid windowtext 1.0pt;
+                       border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+                       solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'>
+                            <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+                        font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            MED. EXPENSE (any one person)  </span></p>
+                    </td>
+                    
+<td width='103' valign='top' style='width:77.4pt;border:solid windowtext 1.0pt;
+border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+<p class='MsoNormal' style='tab-stops:right .8in'>
+<span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+$ <apex:outputField value="{!Insurance_Policy__c.Medical_Expense_any_one_person__c}"/> 
+<span style='mso-tab-count:1'> </span>  </span></p>
+</td>
+                    
+</tr>
+ 
+    <!--  DUPLICATE 13              
+                
+                <tr style='mso-yfti-irow:13'>
+                    
+                    <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+                     border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+                     solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'>
+                            <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+                        font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+                    </td>
+                    
+                    <td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+                     border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+                     mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+                     mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal' align='center' style='text-align:center'><span
+                          style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+                          mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+                    </td>
+                    
+                    <td width='156' colspan='7' valign='top' style='width:116.65pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+                       font-family:"Arial Narrow",sans-serif'>***</span><span
+                       style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+                       mso-bidi-font-family:"Times New Roman"'>  </span></p>
+                    </td>
+                    
+                    <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+                     solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+                     mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+                        font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+                    </td>
+                    
+                    <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+                     border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+                       font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+                    </td>
+                    
+                    <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+                      mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'>
+                            <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+                     font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+                    </td>
+                    
+                    <td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;
+                     border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+                       font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+                            EACH OCCURRENCE  </span></p>
+                    </td>
+                    
+                    <td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+                    mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+                        <p class='MsoNormal' style='tab-stops:right .8in'><span style='font-size:7.0pt;
+                       mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:
+                       "Times New Roman"'>$ 723 <span style='mso-tab-count:1'> </span>  </span></p>
+                        
+                    </td></tr>-->
+         <!-- Line 15 Medical expense                
+                        
+                        
+<tr style='mso-yfti-irow:15'>
+  
+    <td width='31' valign='top' style='width:23.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-left-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='180' colspan='8' valign='top' style='width:134.65pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='90' valign='top' style='width:67.85pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-left-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='89' colspan='4' valign='top' style='width:66.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='96' valign='top' style='width:71.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial Narrow",sans-serif'>MED. EXPENSE</span><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> </span><span style='font-size:7.0pt;
+  mso-bidi-font-size:10.0pt;font-family:"Arial Narrow",sans-serif'>(any one person)</span>
+      
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+  
+    <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>$ <apex:outputField value="{!Insurance_Policy__c.Medical_Expense_any_one_person__c}"/>   <span
+  style='mso-tab-count:1'> </span>  </span></p>
+  </td>
+ </tr>-->
+ 
+          
+ <!-- Line 16  Automobile Liability -->                      
+                        
+ <tr style='mso-yfti-irow:16'>
+ 
+<td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+
+<p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+    &nbsp; </span></p>
+</td>
+  
+<td width='180' colspan='8' valign='top' style='width:134.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+<span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      AUTOMOBILE LIABILITY  </span></p>
+  </td>
+  
+<td width='90' valign='top' style='width:67.85pt;border-top:solid windowtext 1.0pt;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      
+<span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+    &nbsp; </span></p>
+  </td>
+  
+<td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;border-top:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;border-top:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+  
+<td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+ <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      COMBINED SINGLE LIMIT  </span></p>
+  </td>
+  
+<td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' style='tab-stops:right .8in'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $ <apex:outputField value="{!Insurance_Policy__c.Combined_Single_Limit__c}"/>  </span></p>
+  </td>  
+     
+       
+   <!--  <td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>-->
+ </tr>
+
+                        
+  <!-- Line 17       Any Auto. -->                
+                        
+<tr style='mso-yfti-irow:17'>
+ 
+    <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+  <td width='24' valign='top' style='width:.25in;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+  
+ <td width='156' colspan='7' valign='top' style='width:116.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      ANY AUTO  </span></p>
+  </td>
+  
+ <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+          &nbsp; </span></p>
+  </td>
+  
+ <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+  
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+  
+<td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      BODILY INJURY (per person) </span></p>
+<!-- <p class='MsoNormal'>
+         <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      (per person)  </span></p>-->
+  </td>
+  
+ <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' style='tab-stops:right .8in'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+          $ <apex:outputField value="{!Insurance_Policy__c.Bodily_Injury_per_person__c}"/>  </span></p>
+  </td>
+ </tr> 
+ 
+                 
+ <!-- Line 18 All Owned Vehicles -->                    
+                        
+ <tr style='mso-yfti-irow:18'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+<td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+   <td width='156' colspan='7' valign='top' style='width:116.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      ALL OWNED AUTOS  </span></p>
+  </td>
+  
+<td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+<td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+ <td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNorma'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      BODILY INJURY (per accident)  </span></p>
+    <!-- <p class='MsoNormal'>
+         <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      (per accident)  </span></p>-->
+  </td>
+ 
+<td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $ <apex:outputField value="{!Insurance_Policy__c.Bodily_Injury_per_accident__c}"/>  </span></p>
+  </td>
+
+<!--   <td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+<span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>-->
+ </tr> 
+ 
+                        
+ <!-- Line 19  Scheduled Autos. -->                      
+                        
+ <tr style='mso-yfti-irow:19'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+ <td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+  
+ <td width='156' colspan='7' valign='top' style='width:116.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+  <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      SCHEDULED AUTOS  </span></p>
+  </td>
+  
+ <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+ <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+  
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+ 
+<!--<td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+   <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      ****  </span></p>
+  </td>-->
+     
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+     P. DAMAGE (per accident) </span></p>
+  <!--  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      (per accident)  </span></p>-->
+  </td>
+  
+  <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $ <apex:outputField value="{!Insurance_Policy__c.Property_Damage_per_accident__c}"/>   </span></p>
+  </td>-->
+ </tr> 
+ 
+   <!-- Line 20 Hired Autos -->                     
+                        
+                        <tr style='mso-yfti-irow:20'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+ <td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+ <td width='156' colspan='7' valign='top' style='width:116.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      HIRED AUTOS  </span></p>
+  </td>
+  
+<td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+<td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+ 
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+<td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+       &nbsp;  </span></p>
+    
+  </td>
+  
+<td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp;  </span></p>
+  </td>
+ </tr> 
+                                              
+    <!-- Line 21 Non owned auto. -->                   
+                        
+ <tr style='mso-yfti-irow:21'>
+  
+     <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+     <td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+  
+     <td width='156' colspan='7' valign='top' style='width:116.65pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      NON-OWNED AUTOS  </span></p>
+  </td>
+  
+     <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+     <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+     <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>&nbsp;
+  
+  </td>
+  
+     <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp;  </span></p>
+  </td>
+ </tr> 
+                        
+                   <!-- Line 22 Physical Damage 
+ <tr style='mso-yfti-irow:22'>
+  
+     <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+          &nbsp; </span></p>
+  </td>
+  
+     <td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='156' colspan='7' valign='top' style='width:116.65pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+          &nbsp; </span></p>
+  </td>
+  
+     <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+          &nbsp; </span></p>
+  </td>
+  
+     <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      <!--PHYSICAL DAMAGE&nbsp;  </span></p>
+  </td>
+  
+     <td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      &nbsp; </span></p>
+  </td>
+ </tr> -->
+                        
+     <!-- Line 23  Blank line?    
+                        
+ <tr style='mso-yfti-irow:23'>
+  <td width='31' valign='top' style='width:23.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-left-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='156' colspan='7' valign='top' style='width:116.65pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> Other </span></p>
+  </td>
+  
+     <td width='90' valign='top' style='width:67.85pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-left-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='89' colspan='4' valign='top' style='width:66.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='96' valign='top' style='width:71.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>&nbsp; </span></p>
+  </td>
+ </tr> -->
+                        
+   <!-- Line 24 Garage Liability 
+                                               
+ <tr style='mso-yfti-irow:24'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='180' colspan='8' valign='top' style='width:134.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      GARAGE LIABILITY  </span></p>
+  </td>
+  
+     <td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      AUTO ONLY - EA ACCIDENT  </span></p>
+  </td>
+  
+     <td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>$ 1330 </span></p>
+  </td>
+ </tr>-->
+                        
+  <!-- Line 25  other than auto.                      
+                        
+ <tr style='mso-yfti-irow:25'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='24' valign='top' style='width:.25in;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='156' colspan='7' valign='top' style='width:116.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      ANY AUTO  </span></p>
+  </td>
+  
+     <td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+     <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+  
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      OTHER THAN AUTO ONLY:  </span></p>
+  </td>
+  
+     <td width='103' valign='top' style='width:77.4pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  background:#CCCCCC;mso-shading:windowtext;mso-pattern:gray-20 auto;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ </tr>-->
+                                                           
+<!-- Line 26 Each accident 
+                                                
+                        
+                        <tr style='mso-yfti-irow:26'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='156' colspan='7' valign='top' style='width:116.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ 
+<td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='145' colspan='3' valign='top' style='width:108.95pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>EACH ACCIDENT  </span></p>
+  </td>
+ 
+<td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>$ 1452 </span></p>
+  </td>
+ </tr>-->
+                                             
+                        <!-- Line 27.Aggregate  
+                        
+                        
+ <tr style='mso-yfti-irow:27'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ 
+<td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='156' colspan='7' valign='top' style='width:116.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ 
+ <td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ 
+<td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>AGGREGATE  </span></p>
+  </td>
+  
+<td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>$ 1513  </span></p>
+  </td>
+ </tr>
+                        
+  -->                      
+  <!--  Line 28 Excess Liability   -->
+                        
+ <tr style='mso-yfti-irow:28'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='180' colspan='8' valign='top' style='width:134.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>EXCESS LIABILITY  </span></p>
+  </td>
+  
+<td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>EACH OCC.  </span></p>
+  </td>
+ 
+     <td width='103' valign='top' style='width:77.4pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $ <apex:outputField value="{!Insurance_Policy__c.Umbrella_Limit__c}"/> </span></p>
+  </td>
+ </tr>
+
+                      
+  <!-- Line 29. Umbrella Form  -->                      
+                                                                     
+ <tr style='mso-yfti-irow:29'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='24' valign='top' style='width:.25in;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='156' colspan='7' valign='top' style='width:116.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>UMBRELLA FORM  </span></p>
+  </td>
+  
+     <td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ 
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>AGGREGATE  </span></p>
+  </td>
+  
+     <td width='103' valign='top' style='width:77.4pt;border-top:solid windowtext 1.0pt;
+  border-left:none;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $ <apex:outputField value="{!Insurance_Policy__c.Umbrella_Aggregate__c}"/>  </span></p>
+  </td>
+ </tr>
+                        
+                        <!-- Line 30. Other Than Umbrella Form -->
+                        
+                        
+ <tr style='mso-yfti-irow:30'>
+  <td width='31' valign='top' style='width:23.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-left-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='24' valign='top' style='width:.25in;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='156' colspan='7' valign='top' style='width:116.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      OTHER THAN UMBRELLA FORM</span>
+      <span style='font-size:7.0pt;mso-bidi-font-size:
+  10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+  
+     <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='89' colspan='4' valign='top' style='width:66.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='96' valign='top' style='width:71.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+     <td width='145' colspan='3' valign='top' style='width:108.95pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> RETENTION  </span></p>
+  </td>
+  
+     <td width='103' valign='top' style='width:77.4pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .75pt;mso-border-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $ <apex:outputField value="{!Insurance_Policy__c.Umbrella_Retention__c}"/>  </span></p>
+  </td>
+ </tr>
+                        
+                                             
+   <!--  Line 31.Workers Comp  -->                     
+                        
+      <tr style='mso-yfti-irow:31'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ 
+          <td width='180' colspan='8' valign='top' style='width:134.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'>
+      WORKERS COMPENSATION AND EMPLOYERS LIABILITY  </span></p>
+  </td>
+  
+          <td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+ <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+          <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+          <td width='20' valign='top' style='width:14.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+          <td width='125' colspan='2' valign='top' style='width:94.05pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-left-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      STATUTORY LIMITS  </span></p>
+  </td>
+  
+          <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-left-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  background:#CCCCCC;mso-shading:windowtext;mso-pattern:gray-20 auto;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ </tr>
+                                         
+   <!-- Line 32 Each Accident. -->                     
+                        
+  <tr style='mso-yfti-irow:32'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+      <td width='132' colspan='7' valign='top' style='width:99.0pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'>
+      <span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      PROPRIETORS/PARTNERS/EXECUTIVE OFFICERS/MEMBERS ARE:   </span></p>
+  </td>
+  
+     <td width='48' colspan='1' valign='top' style='width:5.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+      <td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ 
+      <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+      <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+      <td width='145' colspan='3' valign='top' style='width:108.95pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      EACH ACCIDENT  </span></p>
+  </td>
+  
+      <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $ <apex:outputField value="{!Insurance_Policy__c.WC_EL_Each_Accident__c}"/> </span></p>
+  </td>
+ </tr>
+                       
+                        
+ <!-- Line 33. Partner Executive -->
+                        
+   <tr style='mso-yfti-irow:33'>
+  <td width='31' valign='top' style='width:23.4pt;border-top:none;border-left:solid windowtext 1.0pt;
+  border-bottom:none;border-right:solid windowtext 1.0pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+       <td width='126' colspan='4' valign='top' style='width:94.5pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'><!--PARTNERS/EXECUTIVE-->  </span></p>
+  </td>
+  
+       <td width='18' colspan='3' valign='top' style='width:13.5pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+       <td width='36' valign='top' style='width:26.65pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>INCL  </span></p>
+  </td>
+  
+       <td width='90' valign='top' style='width:67.85pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+       <td width='89' colspan='4' valign='top' style='width:66.65pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+       <td width='96' valign='top' style='width:71.9pt;border:none;border-right:solid windowtext 1.0pt;
+  mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+       <td width='145' colspan='3' valign='top' style='width:108.95pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>DISEASE-POLICY LIMIT  </span></p>
+  </td>
+  
+       <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>$ <apex:outputField value="{!Insurance_Policy__c.WC_EL_Disease_Policy_Limit__c}"/>  </span></p>
+  </td>
+ </tr>
+                     
+                        
+ <!-- Line 34.   Disease each employee. -->                  
+                        
+
+<tr style='mso-yfti-irow:34'>
+  <td width='31' valign='top' style='width:23.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-left-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='126' colspan='4' valign='top' style='width:94.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'><!--OFFICERS ARE:-->  </span></p>
+  </td>
+  
+    <td width='18' colspan='3' valign='top' style='width:13.5pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='36' valign='top' style='width:26.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      EXCL  </span></p>
+  </td>
+  
+    <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal' align='center' style='text-align:center'><span
+  style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='89' colspan='4' valign='top' style='width:66.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='96' valign='top' style='width:71.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='145' colspan='3' valign='top' style='width:108.95pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-top-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      DISEASE-EACH EMPLOYEE  </span></p>
+  </td>
+  
+    <td width='103' valign='top' style='width:77.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      $ <apex:outputField value="{!Insurance_Policy__c.WC_EL_Disease_Each_Employee__c}"/>  </span></p>
+  </td>
+ </tr>
+
+
+<!--Line 34 Blank line for other insurance types  -->                      
+                        
+                                            
+   <tr style='mso-yfti-irow:35;height:.5in'>
+  
+       <td width='31' valign='top' style='width:23.4pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+  solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:.5in'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      A </span></p>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+       </td>
+  
+       <td width='180' colspan='8' valign='top' style='width:134.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:.5in'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      
+      OTHER: {!insurance_policy__c.subclass__c}  </span></p>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      <span style='mso-spacerun:yes'></span>
+     
+     <!-- {!insurance_policy__c.Claims_Reported_Basis__c}-->  </span></p>
+ 
+      <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+       <td width='90' valign='top' style='width:67.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:.5in'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      
+      {!insurance_policy__c.policy_number__c} </span></p>
+       </td>
+ 
+       <td width='89' colspan='4' valign='top' style='width:66.65pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:.5in'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      
+      <apex:outputField value="{!Insurance_Policy__c.Effective_Date__c}"/>
+      <!--{!Insurance_Policy__c.Effective_Date__c}-->
+      </span></p>
+  </td>
+  
+       <td width='96' valign='top' style='width:71.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  padding:0in 5.4pt 0in 5.4pt;height:.5in'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> 
+      
+      
+      <apex:outputField value="{!Insurance_Policy__c.Expiration_Date__c}"/>
+    
+        
+      
+      </span></p>
+ <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      &nbsp; </span></p>
+  </td>
+ 
+ <td width='248' colspan='4' valign='top' style='width:186.35pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:.5in'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> <!-- &nbsp; -->  </span></p>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+     
+      Each Occurence:  
+<apex:outputField value="{!Insurance_Policy__c.Professional_Liability_Limit__c}"/> &nbsp;
+    
+      in the Aggregate: &nbsp;
+      <apex:outputField value="{!Insurance_Policy__c.Professional_Liability_Aggregate__c}"/> &nbsp;
+     
+     <!-- Per: 
+      <apex:outputField value="{!Insurance_Policy__c.Limit_Applies_Per__c}"/>-->
+      
+
+      </span></p>
+  </td>
+ </tr>
+                     
+                                               
+  <!-- Line 36 Description of operations -->                      
+                                               
+   <tr style='mso-yfti-irow:36;height:56.55pt;mso-height-rule:exactly'>
+  
+       <td width='734' colspan='19' valign='top' style='width:7.65in;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .75pt;mso-border-alt:
+  solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:56.55pt;mso-height-rule:exactly'>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      DESCRIPTION OF OPERATIONS/ LOCATIONS/ VEHICLES/ SPECIAL ITEMS  </span></p>
+  <p class='MsoNormal'><span style='font-family:"Arial",sans-serif;mso-bidi-font-family:
+  "Times New Roman"'> &nbsp; </span></p>
+  <p class='MsoNormal'><span style='font-size:7.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+ </tr>
+                        
+   <!-- Line 37. Certificate Holder. -->                     
+                        
+ <tr style='mso-yfti-irow:37;height:8.25pt'>
+  <td width='301' colspan='10' valign='top' style='width:225.9pt;border:none;
+  border-left:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:solid windowtext .75pt;
+  background:#CCCCCC;mso-shading:windowtext;mso-pattern:gray-20 auto;padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+  <p class='MsoNormal'>
+ <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-color-alt:windowtext'>
+      CERTIFICATE HOLDER</span>
+      <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+  
+<td width='433' colspan='9' valign='top' style='width:324.9pt;border:none;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .75pt;
+  mso-border-top-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  background:#CCCCCC;mso-shading:windowtext;mso-pattern:gray-20 auto;
+  padding:0in 5.4pt 0in 5.4pt;height:8.25pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-color-alt:windowtext'>
+      <span style='mso-spacerun:yes'>
+  </span>CANCELLATION</span>
+      <span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+ </tr>
+                        
+                                              
+<tr style='mso-yfti-irow:38;height:44.5pt'>
+  <td width='301' colspan='10' valign='top' style='width:225.9pt;border:none;
+  border-left:solid windowtext 1.0pt;mso-border-left-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:44.5pt'>
+  <p class='MsoNormal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+    <td width='25' colspan='2' valign='top' style='width:19.0pt;padding:0in 5.4pt 0in 5.4pt;height:44.5pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+
+    <td width='408' colspan='7' valign='top' style='width:305.9pt;border-top:none;
+  border-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  mso-border-left-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:44.5pt'>
+  <p class='MsoNormal' style='text-align:justify'><span style='font-size:7.0pt;
+  mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>
+      SHOULD ANY OF THE ABOVE DESCRIBED POLICIES BE CANCELLED BEFORE THE EXPIRATION DATE THEREOF, THE ISSUING COMPANY WILL ENDEAVOR TO MAIL
+  <u>30</u> DAYS WRITTEN NOTICE TO THE CERTIFICATE HOLDER NAMED TO THE LEFT,
+  BUT FAILURE TO MAIL SUCH NOTICE SHALL IMPOSE NO OBLIGATION OR LIABILITY OF ANY KIND UPON THE COMPANY, IT‚ÄôS AGENTS OR REPRESENTATIVES.</span><span
+  style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+</tr>
+
+ <tr style='mso-yfti-irow:39;page-break-inside:avoid;height:63.3pt'>
+  <td width='301' colspan='10' valign='top' style='width:225.9pt;border:none;
+  border-left:solid windowtext 1.0pt;mso-border-left-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:63.3pt'>
+  <p class='MsoNormal'><span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+<td width='25' colspan='2' valign='top' style='width:19.0pt;padding:0in 5.4pt 0in 5.4pt;height:63.3pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  </td>
+  
+  <td width='408' colspan='7' valign='top' style='width:305.9pt;border:solid windowtext 1.0pt;
+  border-bottom:none;mso-border-top-alt:solid windowtext .75pt;mso-border-left-alt:
+  solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;padding:0in 5.4pt 0in 5.4pt;height:63.3pt'>
+  <p class='MsoNormal' style='text-align:justify'><span style='font-size:6.0pt;
+  mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:
+  "Times New Roman"'>AUTHORIZED REPRESENTATIVE
+      <span style='mso-tab-count:4'> </span>  </span></p>
+  <p class='MsoNormal' style='text-align:justify'><span style='mso-tab-count:1'>
+      </span><span style='font-size:8.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+ </tr>
+                        
+         <!-- Line 40 Acord Footer -->
+                        
+ <tr style='mso-yfti-irow:40;mso-yfti-lastrow:yes;height:12.3pt'>
+  
+     <td width='355' colspan='13' valign='top' style='width:265.95pt;border-top:none;
+  border-left:solid windowtext 1.0pt;border-bottom:solid windowtext 1.0pt;
+  border-right:none;mso-border-left-alt:solid windowtext .75pt;mso-border-bottom-alt:
+  solid windowtext .75pt;background:#CCCCCC;mso-shading:windowtext;mso-pattern:
+  gray-20 auto;padding:0in 5.4pt 0in 5.4pt;height:12.3pt'>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  <p class='MsoNormal'><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext'>
+      ACORD 25</span>
+<span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+  </td>
+     
+  <td width='380' colspan='6' valign='top' style='width:284.85pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-bottom-alt:solid windowtext .75pt;mso-border-right-alt:solid windowtext .75pt;
+  background:#CCCCCC;mso-shading:windowtext;mso-pattern:gray-20 auto;padding:0in 5.4pt 0in 5.4pt;height:12.3pt'>
+  <p class='MsoNormal' align='right' style='text-align:right'><span
+  style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman"'> &nbsp; </span></p>
+  <p class='MsoNormal' align='right' style='text-align:right'><span
+  style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:Symbol;
+  mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;color:black;
+  mso-color-alt:windowtext;mso-char-type:symbol;mso-symbol-font-family:Symbol'><span
+  style='mso-char-type:symbol;mso-symbol-font-family:Symbol'></span></span><span
+  style='font-size:6.0pt;mso-bidi-font-size:10.0pt;font-family:"Arial",sans-serif;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-color-alt:windowtext'>
+      ACORD CORPORATION</span><span style='font-size:6.0pt;mso-bidi-font-size:10.0pt;
+  font-family:"Arial",sans-serif;mso-bidi-font-family:"Times New Roman"'>  </span></p>
+     </td>
+</tr>
+</table>    
+</div>
+</body>
+</html>
+</apex:page>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Per $1,000 gross sales (policy year)</fullName>
+        <default>false</default>
+        <label>Per $1,000 gross sales (policy year)</label>
+    </customValue>
+    <customValue>
+        <fullName>Per $1000 in payroll</fullName>
+        <default>false</default>
+        <label>Per $1000 in payroll</label>
+    </customValue>
+    <customValue>
+        <fullName>Per $1,000 clinical payroll</fullName>
+        <default>false</default>
+        <label>Per $1,000 clinical payroll</label>
+    </customValue>
+    <customValue>
+        <fullName>Per 1,000 square feet</fullName>
+        <default>false</default>
+        <label>Per 1,000 square feet</label>
+    </customValue>
+    <customValue>
+        <fullName>Per patient</fullName>
+        <default>false</default>
+        <label>Per patient</label>
+    </customValue>
+    <customValue>
+        <fullName>Per unit</fullName>
+        <default>false</default>
+        <label>Per unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Factor</fullName>
+        <default>false</default>
+        <label>Other Factor</label>
+    </customValue>
+    <customValue>
+        <fullName>Per professional</fullName>
+        <default>false</default>
+        <label>Per professional</label>
+    </customValue>
+    <customValue>
+        <fullName>No. of Person Months</fullName>
+        <default>false</default>
+        <label>No. of Person Months</label>
+    </customValue>
+    <customValue>
+        <fullName>Per trip</fullName>
+        <default>false</default>
+        <label>Per trip</label>
+    </customValue>
+    <customValue>
+        <fullName>Per Vehicle</fullName>
+        <default>false</default>
+        <label>Per Vehicle</label>
+    </customValue>
+    <masterLabel>Exposure Base</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

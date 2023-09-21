@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signed_must_be_LTE_authorized</fullName>
+    <active>true</active>
+    <description>Signed must be &lt;= Authorized amount</description>
+    <errorConditionFormula>Signed__c  &gt;  Authorized__c</errorConditionFormula>
+    <errorDisplayField>Signed__c</errorDisplayField>
+    <errorMessage>Signed share must be &lt;= Authorized share</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vehicle_Rating_Guide</fullName>
+    <columns>NCCI_Code__c</columns>
+    <columns>NAME</columns>
+    <columns>Exposure_Base__c</columns>
+    <columns>Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Exposure_Base__c</field>
+        <operation>equals</operation>
+        <value>Other Factor,Per trip,Per Vehicle</value>
+    </filters>
+    <label>Vehicle Rating Guide</label>
+</ListView>

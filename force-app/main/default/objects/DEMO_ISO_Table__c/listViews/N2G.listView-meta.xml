@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>N2G</fullName>
+    <columns>Basis__c</columns>
+    <columns>Rate__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Hazard_Grade_HG__c</columns>
+    <columns>SIC_Description__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Hazard_Grade_HG__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>N2G</label>
+</ListView>

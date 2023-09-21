@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMARRT_My_Account_Teams</fullName>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <label>SMARRT My Account Teams</label>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>START_Claim_Layout</fullName>
+    <fields>Insured__c</fields>
+    <fields>Name</fields>
+    <fields>Carrier__c</fields>
+    <fields>Loss_Date__c</fields>
+    <label>START Claim Layout</label>
+</CompactLayout>

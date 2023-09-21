@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Professional_Concentration__c</fullName>
+    <externalId>false</externalId>
+    <label>Professional Concentration</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Interest__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Professional_Concentration</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <valueName>Ambulatory care nursing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <valueName>Anesthesia technician</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <valueName>Audiology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <valueName>Critical care nursing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Diagnostic Radiology only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <valueName>Pediatric nursing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <valueName>Physical therapists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <valueName>Radiographer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allied Health Professional Professional Liability Insurance</controllingFieldValue>
+            <valueName>Surgical nursing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pharmacy Professional Liability Liability Insurance</controllingFieldValue>
+            <valueName>Pharmacist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Treaty</controllingFieldValue>
+            <controllingFieldValue>Consulting</controllingFieldValue>
+            <controllingFieldValue>Facultative</controllingFieldValue>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <controllingFieldValue>Casualty</controllingFieldValue>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <controllingFieldValue>None</controllingFieldValue>
+            <controllingFieldValue>Professional Liability</controllingFieldValue>
+            <controllingFieldValue>Surety</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Dental anesthesiology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Dental public health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Endodontics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>General Dentistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Oral and maxillofacial pathology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Oral and maxillofacial radiology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Oral and maxillofacial surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Oral medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Orofacial pain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Orthodontics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Pediatric dentistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Periodontics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dental Professional Liability  Insurance</controllingFieldValue>
+            <valueName>Prosthodontics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Anesthesiology, including pain medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Cardiac Surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Computerized Tomography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Dermatology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Diagnostic Radiology and Radiation Oncology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Emergency Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Gastroenterology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>General Surgery, excluding bariatric surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>General Surgery, including bariatric surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Gynecology only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Internal Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Internal Medicine, including cardiac catheterization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Neurosurgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Obstetrics and Gynecology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Ophthalmology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Orthopedic Surgery, excluding spinal surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Orthopedic Surgery, including spinal surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Otolaryngology, including otolaryngological cosmetic plastic surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Pathology and/or Hematology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Pediatrics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Plastic and Reconstructive Surgery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Psychiatry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physician Professional Liability Insurance</controllingFieldValue>
+            <valueName>Vascular Surgery</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

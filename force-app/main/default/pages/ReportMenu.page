@@ -1,0 +1,6 @@
+<apex:page standardController="Insurance_Policy__c" >
+    
+    
+    <a href= "https://markitthapps-dev-ed.lightning.force.com/lightning/r/Report/00O6g0000062plREAQ/view?queryScope=userFolders">Report Link</a>
+    
+</apex:page>

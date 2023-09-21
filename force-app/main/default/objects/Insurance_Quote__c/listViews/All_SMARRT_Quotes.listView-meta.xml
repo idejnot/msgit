@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_SMARRT_Quotes</fullName>
+    <columns>NAME</columns>
+    <columns>Product__c</columns>
+    <columns>Price__c</columns>
+    <columns>Insurance_Policy__c</columns>
+    <columns>Carrier__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>All START Quotes</label>
+</ListView>

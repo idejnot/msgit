@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>N2G_Logo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>N2G Underwriter Prototype</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>N2G Underwriter Workstation</label>
+    <navType>Standard</navType>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>Census_Schedule__c</tabs>
+    <tabs>standard-CmsWorkspaces</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>DEMO_ISO_Table__c</tabs>
+    <tabs>standard-EmailTemplate</tabs>
+    <tabs>Factors__c</tabs>
+    <tabs>standard-home</tabs>
+    <tabs>Insurance_Claim__c</tabs>
+    <tabs>Insurance_Quote__c</tabs>
+    <tabs>Insurance_Policy__c</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>Licensing__c</tabs>
+    <tabs>NCCI_Code__c</tabs>
+    <tabs>Policy_Forms__c</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>standard-Recommendation</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>START_Rating_Tool__c</tabs>
+    <tabs>Submission_Forms__c</tabs>
+    <tabs>standard-Survey</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>OFAC_SDN_Sanction_List__c</tabs>
+    <tabs>Insurance_Product__c</tabs>
+    <tabs>Program_Name__c</tabs>
+    <tabs>ISO_Class_Code__c</tabs>
+    <tabs>NAICS_Industry_Code__c</tabs>
+    <tabs>LOB_Summary__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>N2G_Underwriter_Workstation_UtilityBar</utilityBar>
+</CustomApplication>

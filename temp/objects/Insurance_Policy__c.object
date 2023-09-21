@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Insurance_Policy_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Insurance_Policy_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Custom_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Custom_Compact_Layout</fullName>
+        <fields>Named_Insured__c</fields>
+        <fields>Insured_Contact__c</fields>
+        <fields>Effective_Date__c</fields>
+        <fields>Policy_Number__c</fields>
+        <fields>Subclass__c</fields>
+        <fields>Producer__c</fields>
+        <fields>Carrier_Name__c</fields>
+        <label>Custom Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Base_for_Rate_Calculation_CAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Base for Rate Calculation CAP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Base_for_Rate_Calculation_CProp__c</fullName>
+        <externalId>false</externalId>
+        <label>Base for Rate Calculation CProp</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Base_for_Rate_Calculation_GL__c</fullName>
+        <externalId>false</externalId>
+        <label>Base for Rate Calculation GL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Base_for_Rate_Calculation_PL__c</fullName>
+        <externalId>false</externalId>
+        <label>Base for Rate Calculation PL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Base_for_Rate_Calculation_Umb__c</fullName>
+        <externalId>false</externalId>
+        <label>Base for Rate Calculation Umb</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Base_for_Rate_Calculation_WC__c</fullName>
+        <externalId>false</externalId>
+        <label>Base for Rate Calculation WC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Base_for_rate_calculation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Basis for rating (payroll, gross sales, square footage)</inlineHelpText>
+        <label>Base for Rate Calculation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Direct Bill</fullName>
+                    <default>true</default>
+                    <label>Direct Bill</label>
+                </value>
+                <value>
+                    <fullName>Agency Bill</fullName>
+                    <default>false</default>
+                    <label>Agency Bill</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Bodily_Injury_per_accident__c</fullName>
+        <externalId>false</externalId>
+        <label>Bodily Injury per accident</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bodily_Injury_per_person__c</fullName>
+        <externalId>false</externalId>
+        <label>Bodily Injury per person</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Carrier_NAIC_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Carrier NAIC Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Carrier_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Carrier__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Carrier Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Carrier__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Carrier</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Carrier must be an insurance company</errorMessage>
+            <filterItems>
+                <field>Account.Type</field>
+                <operation>equals</operation>
+                <value>Insurance Company, Risk Retention Group</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Insurance_Policy</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cause_of_Loss__c</fullName>
+        <externalId>false</externalId>
+        <label>Cause of Loss</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Cause_of_Loss</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Claims_Reported_Basis__c</fullName>
+        <externalId>false</externalId>
+        <label>Claims Reported Basis</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Claims Made</fullName>
+                    <default>false</default>
+                    <label>Claims Made</label>
+                </value>
+                <value>
+                    <fullName>Occurence</fullName>
+                    <default>false</default>
+                    <label>Occurence</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Combined_Single_Limit__c</fullName>
+        <externalId>false</externalId>
+        <label>Combined Single Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Damage_to_Rented_Property_Each_Occurenc__c</fullName>
+        <externalId>false</externalId>
+        <label>Damage to Rented Property (Each Occurenc</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deductible_Bodily_Injury__c</fullName>
+        <externalId>false</externalId>
+        <label>Deductible Bodily Injury</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deductible_Property_Damage__c</fullName>
+        <externalId>false</externalId>
+        <label>Deductible Property Damage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Each_Occurence__c</fullName>
+        <externalId>false</externalId>
+        <label>Each Occurence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Effective_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Effective Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Employee_Benefits__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Benefits</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Experience_Rating_Modifier__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>adjustment factor for WC rates</inlineHelpText>
+        <label>Experience Rating Modifier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expiration_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expiration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Exposure_Base__c</fullName>
+        <externalId>false</externalId>
+        <formula>text( START_Rating_Product__r.Exposure_Base__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Exposure Base</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>General_Aggregate_Limit__c</fullName>
+        <externalId>false</externalId>
+        <label>General Aggregate Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_Product_Selected__c</fullName>
+        <externalId>false</externalId>
+        <formula>Insurance_Product__r.Carrier__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Insurance Product Selected</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insurance_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Insurance Product</label>
+        <referenceTo>Insurance_Product__c</referenceTo>
+        <relationshipLabel>Insurance Submission</relationshipLabel>
+        <relationshipName>Insurance_Submission</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Insured_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Insured Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Insurance_Policy</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Insured__c</fullName>
+        <externalId>false</externalId>
+        <label>Insured</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Limit_Applies_Per__c</fullName>
+        <externalId>false</externalId>
+        <label>Limit Applies Per</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Limit_Applies_Per</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Major_Class__c</fullName>
+        <externalId>false</externalId>
+        <label>Major Class</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Major_Class</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Medical_Expense_any_one_person__c</fullName>
+        <externalId>false</externalId>
+        <label>Medical Expense (any one person)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Named_Insured__c</fullName>
+        <externalId>false</externalId>
+        <formula>Insured_Contact__r.Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Named Insured</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Insurance_Policy</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Personal_Advertising_Injury__c</fullName>
+        <externalId>false</externalId>
+        <label>Personal &amp; Advertising Injury</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Policy_Number__c</fullName>
+        <defaultValue>&quot;N2G-&quot;&amp;text($CustomMetadata.Configuration__mdt.Policy_Number.Policy_Number_Counter__c)</defaultValue>
+        <externalId>false</externalId>
+        <label>Policy Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Policy_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Policy Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Policy_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Policy_Transaction__c</fullName>
+        <externalId>false</externalId>
+        <label>Policy Transaction</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Policy_Status__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Policy_Transaction</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Application</controllingFieldValue>
+                <controllingFieldValue>UW Review</controllingFieldValue>
+                <controllingFieldValue>Quote</controllingFieldValue>
+                <controllingFieldValue>Declined</controllingFieldValue>
+                <controllingFieldValue>Bound</controllingFieldValue>
+                <controllingFieldValue>Withdrawn</controllingFieldValue>
+                <valueName>New Business</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bound</controllingFieldValue>
+                <valueName>Renewal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bound</controllingFieldValue>
+                <valueName>Rewrite</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bound</controllingFieldValue>
+                <valueName>Policy Change</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bound</controllingFieldValue>
+                <valueName>Cancellation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bound</controllingFieldValue>
+                <valueName>Reinstatement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bound</controllingFieldValue>
+                <valueName>Non-Renewal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Bound</controllingFieldValue>
+                <valueName>Re-issue</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Policy_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Policy Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Renewal</fullName>
+                    <default>false</default>
+                    <label>Renewal</label>
+                </value>
+                <value>
+                    <fullName>Revision</fullName>
+                    <default>false</default>
+                    <label>Revision</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Premiums_CAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums CAP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Premiums_CProp__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums CProp</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Premiums_GL__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums GL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Premiums_PL__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums PL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Premiums_PremisesOperations__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums Premises/Operations</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Premiums_Products__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums Products</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Premiums_Umb__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums Umb</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Premiums_WC__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums WC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Premiums__c</fullName>
+        <externalId>false</externalId>
+        <label>Premiums</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Producer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Producer</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Producer must be agent or broker</errorMessage>
+            <filterItems>
+                <field>Account.Type</field>
+                <operation>equals</operation>
+                <value>Agency, Broker, Surplus Lines Broker, MGA</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Insurance_Policy1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Interest</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Product_Interest</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Products_and_Completed_Operations_Aggreg__c</fullName>
+        <externalId>false</externalId>
+        <label>Products and Completed Operations Aggreg</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Professional_Concentration__c</fullName>
+        <externalId>false</externalId>
+        <label>Professional Concentration</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Professional_Concentration</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Professional_Liability_Aggregate__c</fullName>
+        <externalId>false</externalId>
+        <label>Professional Liability Aggregate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Professional_Liability_Limit__c</fullName>
+        <externalId>false</externalId>
+        <label>Professional Liability Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Program_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Program Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Program is not active</errorMessage>
+            <filterItems>
+                <field>Program_Name__c.Active__c</field>
+                <operation>equals</operation>
+                <value>Yes</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Program_Name__c</referenceTo>
+        <relationshipLabel>Insurance Submission</relationshipLabel>
+        <relationshipName>Insurance_Submission</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Property_Damage_per_accident__c</fullName>
+        <externalId>false</externalId>
+        <label>Property Damage per accident</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rating_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Rating Source</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Rating_Source</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reported_Claims__c</fullName>
+        <externalId>false</externalId>
+        <label>Reported Claims</label>
+        <summaryForeignKey>Insurance_Claim__c.Insurance_Policy__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>START_Rating_Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Select appropriate carrier product</inlineHelpText>
+        <label>START Rating Product</label>
+        <referenceTo>START_Rating_Tool__c</referenceTo>
+        <relationshipLabel>Insurance Submission</relationshipLabel>
+        <relationshipName>Insurance_Policy</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>START_Rating_Tool_CAP__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>START Rating Tool CAP</label>
+        <referenceTo>START_Rating_Tool__c</referenceTo>
+        <relationshipLabel>Insurance Submission (START Rating Tool CAP)</relationshipLabel>
+        <relationshipName>Insurance_Submission1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>START_Rating_Tool_CProp__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>START Rating Tool CProp</label>
+        <referenceTo>START_Rating_Tool__c</referenceTo>
+        <relationshipLabel>Insurance Submission (START Rating Tool CProp)</relationshipLabel>
+        <relationshipName>Insurance_Submission5</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>START_Rating_Tool_GL__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>START Rating Tool GL</label>
+        <referenceTo>START_Rating_Tool__c</referenceTo>
+        <relationshipLabel>Insurance Submission (START Rating Tool GL)</relationshipLabel>
+        <relationshipName>Insurance_Submission</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>START_Rating_Tool_PL__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>START Rating Tool PL</label>
+        <referenceTo>START_Rating_Tool__c</referenceTo>
+        <relationshipLabel>Insurance Submission (START Rating Tool PL)</relationshipLabel>
+        <relationshipName>Insurance_Submission4</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>START_Rating_Tool_Umb__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>START Rating Tool Umb</label>
+        <referenceTo>START_Rating_Tool__c</referenceTo>
+        <relationshipLabel>Insurance Submission (START Rating Tool Umb)</relationshipLabel>
+        <relationshipName>Insurance_Submission3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>START_Rating_Tool_WC__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>START Rating Tool WC</label>
+        <referenceTo>START_Rating_Tool__c</referenceTo>
+        <relationshipLabel>Insurance Submission (START Rating Tool WC)</relationshipLabel>
+        <relationshipName>Insurance_Submission2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Show_Help__c</fullName>
+        <externalId>false</externalId>
+        <label>Show Help</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <label>State</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>US_State_Codes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subclass__c</fullName>
+        <externalId>false</externalId>
+        <label>Subclass</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Major_Class__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>Subclass</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Engineering</controllingFieldValue>
+                <valueName>Boiler &amp; Machinery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Engineering</controllingFieldValue>
+                <valueName>CAR/ EAR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Engineering</controllingFieldValue>
+                <valueName>Engineering Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+                <valueName>Group Life</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+                <valueName>Individual Life</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+                <valueName>Long-Term Disability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+                <valueName>Personal Accident</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+                <valueName>Life Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Life, Accident, and Health</controllingFieldValue>
+                <valueName>Life Whole Account</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>None</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medical</controllingFieldValue>
+                <valueName>Group Medical</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medical</controllingFieldValue>
+                <valueName>Hospital Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medical</controllingFieldValue>
+                <valueName>Individual Medical</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medical</controllingFieldValue>
+                <valueName>Malpractice</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medical</controllingFieldValue>
+                <valueName>Physical Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medical</controllingFieldValue>
+                <valueName>Medical Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medical</controllingFieldValue>
+                <valueName>Medical Whole Account</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aviation</controllingFieldValue>
+                <valueName>Airline Hull</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aviation</controllingFieldValue>
+                <valueName>Airline Hull and Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aviation</controllingFieldValue>
+                <valueName>Airline Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aviation</controllingFieldValue>
+                <valueName>Business Interruption</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aviation</controllingFieldValue>
+                <valueName>General Aviation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aviation</controllingFieldValue>
+                <valueName>Product Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aviation</controllingFieldValue>
+                <valueName>War</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aviation</controllingFieldValue>
+                <valueName>Whole Aviation Account</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Auto Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Combined E&amp;O/ D&amp;O</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Contingency</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Directors &amp; Officers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Employers Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Errors &amp; Omissions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Business Travel Accident</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>General Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Kidnap, Ransom &amp; Extortion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Casualty Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Product Liability Casualty</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Professional Liability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Umbrella</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Whole Casualty Account</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <valueName>Workers Compensation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Casualty</controllingFieldValue>
+                <controllingFieldValue>Multi-Line</controllingFieldValue>
+                <valueName>Multi-Line</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marine</controllingFieldValue>
+                <valueName>Marine Cargo</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marine</controllingFieldValue>
+                <valueName>Energy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marine</controllingFieldValue>
+                <valueName>General Marine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marine</controllingFieldValue>
+                <valueName>Hull</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marine</controllingFieldValue>
+                <valueName>Inland Marine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marine</controllingFieldValue>
+                <valueName>Yacht</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marine</controllingFieldValue>
+                <valueName>Marine Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Property Auto (PD)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Property Composite</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Property Fire</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Property Hail</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Property Natural Perils</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Property Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Property Political Risks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Property All Perils</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Terrorism</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Trade Credit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Property</controllingFieldValue>
+                <valueName>Whole Property Account</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Space</controllingFieldValue>
+                <valueName>Space In-orbit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Space</controllingFieldValue>
+                <valueName>Space Launch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Space</controllingFieldValue>
+                <valueName>Space Life</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Space</controllingFieldValue>
+                <valueName>Space Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Surety</controllingFieldValue>
+                <valueName>Surety Contract</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Surety</controllingFieldValue>
+                <valueName>Surety Miscellaneous</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Surety</controllingFieldValue>
+                <valueName>Surety Fidelty</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Surety</controllingFieldValue>
+                <valueName>Surety Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Weather</controllingFieldValue>
+                <valueName>Weather Derivative</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Weather</controllingFieldValue>
+                <valueName>Weather Single City</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Weather</controllingFieldValue>
+                <valueName>Weather Multiple City</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Weather</controllingFieldValue>
+                <valueName>Weather Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subject_Premium_Base__c</fullName>
+        <externalId>false</externalId>
+        <formula>Base_for_rate_calculation__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Subject Premium Base</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Program_Premium__c</fullName>
+        <externalId>false</externalId>
+        <formula>Premiums_GL__c + Premiums_CAP__c + Premiums_WC__c + Premiums_Umb__c + Premiums_PL__c+ Premiums_CProp__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Program Premium</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Schedule_Premiums__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Schedule Premiums</label>
+        <summarizedField>Census_Schedule__c.Premiums__c</summarizedField>
+        <summaryForeignKey>Census_Schedule__c.Insurance_Policy__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Umbrella_Aggregate__c</fullName>
+        <externalId>false</externalId>
+        <label>Umbrella Aggregate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Umbrella_Limit__c</fullName>
+        <externalId>false</externalId>
+        <label>Umbrella Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Umbrella_Retention__c</fullName>
+        <externalId>false</externalId>
+        <label>Umbrella Retention</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Underwriter__c</fullName>
+        <externalId>false</externalId>
+        <label>Underwriter</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Underwriter</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WC_EL_Disease_Each_Employee__c</fullName>
+        <externalId>false</externalId>
+        <label>WC EL Disease Each Employee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WC_EL_Disease_Policy_Limit__c</fullName>
+        <externalId>false</externalId>
+        <label>WC EL Disease Policy Limit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WC_EL_Each_Accident__c</fullName>
+        <externalId>false</externalId>
+        <label>WC EL Each Accident</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Insurance Submission</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Subclass__c</columns>
+        <columns>Effective_Date__c</columns>
+        <columns>Policy_Number__c</columns>
+        <columns>Named_Insured__c</columns>
+        <columns>Insured_Contact__c</columns>
+        <columns>Policy_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Records</label>
+    </listViews>
+    <listViews>
+        <fullName>START_Claims_Queue_Insurance_Policy</fullName>
+        <columns>NAME</columns>
+        <columns>Reported_Claims__c</columns>
+        <columns>Carrier__c</columns>
+        <columns>Insured_Contact__c</columns>
+        <columns>Subclass__c</columns>
+        <columns>State__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Reported_Claims__c</field>
+            <operation>notEqual</operation>
+            <value>0</value>
+        </filters>
+        <label>START Claims Queue</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>START_Insurance_Policies</fullName>
+        <columns>Carrier_Name__c</columns>
+        <columns>START_Rating_Product__c</columns>
+        <columns>Insured_Contact__c</columns>
+        <columns>NAME</columns>
+        <columns>Producer__c</columns>
+        <columns>Subclass__c</columns>
+        <columns>Premiums__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>START Insurance Policies</label>
+    </listViews>
+    <listViews>
+        <fullName>START_N2G_Insurance_Policies</fullName>
+        <columns>NAME</columns>
+        <columns>Policy_Status__c</columns>
+        <columns>Named_Insured__c</columns>
+        <columns>Insurance_Product__c</columns>
+        <columns>Underwriter__c</columns>
+        <columns>Carrier_Name__c</columns>
+        <columns>Producer__c</columns>
+        <columns>Premiums__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Producer__c</field>
+            <operation>contains</operation>
+            <value>N2G,AON</value>
+        </filters>
+        <label>START N2G Insurance Policies</label>
+    </listViews>
+    <listViews>
+        <fullName>START_N2G_Insurance_Policies_Dan_T</fullName>
+        <columns>NAME</columns>
+        <columns>Policy_Status__c</columns>
+        <columns>Effective_Date__c</columns>
+        <columns>Named_Insured__c</columns>
+        <columns>Insurance_Product__c</columns>
+        <columns>Underwriter__c</columns>
+        <columns>Total_Program_Premium__c</columns>
+        <columns>Total_Schedule_Premiums__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Underwriter__c</field>
+            <operation>equals</operation>
+            <value>Daniel Tague</value>
+        </filters>
+        <label>START N2G Insurance Policies - Dan T</label>
+    </listViews>
+    <listViews>
+        <fullName>START_Scheduled_Insurance_Policies</fullName>
+        <columns>NAME</columns>
+        <columns>Named_Insured__c</columns>
+        <columns>Insurance_Product__c</columns>
+        <columns>Carrier_Name__c</columns>
+        <columns>Producer__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Subclass__c</field>
+            <operation>equals</operation>
+            <value>Workers Compensation</value>
+        </filters>
+        <label>START  Scheduled Insurance Policies</label>
+    </listViews>
+    <nameField>
+        <displayFormat>IP={0000000000}</displayFormat>
+        <label>Insurance Policy</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Insurance Submission</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Carrier__c</fields>
+        <fields>Carrier_Name__c</fields>
+        <fields>Insured_Contact__c</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Effective_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Policy_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Claims_Reported_Basis__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Expiration_date_must_be_GTE_effective_da</fullName>
+        <active>true</active>
+        <errorConditionFormula>Expiration_Date__c &lt;  Effective_Date__c</errorConditionFormula>
+        <errorDisplayField>Expiration_Date__c</errorDisplayField>
+        <errorMessage>Expiration date must be greater than or equal to effective date</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Commercial_Application</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Commercial Application</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.pdffiller.com/jsfiller-desk12/?projectId=691200557#60b5c2b56f74d2979cd8a183612c6542</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Formfill</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Coverage Form (Acord 25)</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://www.pdffiller.com/jsfiller-desk12/?projectId=687613025#5ef251c0e801a3484b706d8548a990c1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Generate_Quote</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Quote Letter</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://markitthapps-dev-ed.lightning.force.com/lightning/r/Report/00O6g0000062tNdEAI/view?fv0={!Insurance_Policy__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>S_Docs</fullName>
+        <availability>online</availability>
+        <description>Create documents for this object.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>S-Docs</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR(&apos;/apex/SDOC__SDCreate1&apos;, null,[id=Insurance_Policy__c.Id, Object=&apos;Insurance_Policy__c&apos;])}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>START_N2G_Insurance_Policies_Dan_T</fullName>
+    <columns>NAME</columns>
+    <columns>Policy_Status__c</columns>
+    <columns>Effective_Date__c</columns>
+    <columns>Named_Insured__c</columns>
+    <columns>Insurance_Product__c</columns>
+    <columns>Underwriter__c</columns>
+    <columns>Total_Program_Premium__c</columns>
+    <columns>Total_Schedule_Premiums__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Underwriter__c</field>
+        <operation>equals</operation>
+        <value>Daniel Tague</value>
+    </filters>
+    <label>START N2G Insurance Policies - Dan T</label>
+</ListView>

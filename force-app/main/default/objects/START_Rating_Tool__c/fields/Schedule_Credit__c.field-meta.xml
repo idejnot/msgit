@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Schedule_Credit__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>A schedule credit up to this % may be applied based on the underwriter&apos;s judgment. The
+purpose of this credit is to recognize risk characteristics that are not reflected in the otherwise
+applicable premium. The underwriter should consider the following in determining whether
+to apply a schedule credit:
+a. The historical loss experience of the applicant;
+b. Claim anomalies in the historical loss experience;
+c. The cumulative number of years of patient experience;
+d. Management control procedures.</inlineHelpText>
+    <label>Schedule Credit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

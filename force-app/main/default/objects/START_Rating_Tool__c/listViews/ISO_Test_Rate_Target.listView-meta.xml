@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISO_Test_Rate_Target</fullName>
+    <columns>NAME</columns>
+    <columns>Rate__c</columns>
+    <columns>Rating_Source__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <columns>Increased_Limits_Factors__c</columns>
+    <columns>loss_cost_multiplier__c</columns>
+    <columns>Minimum_Premium__c</columns>
+    <columns>Deductible_Factor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>ISO Test</value>
+    </filters>
+    <label>ISO Test Rate Target</label>
+</ListView>

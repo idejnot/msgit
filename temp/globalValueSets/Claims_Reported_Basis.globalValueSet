@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Claims Made</fullName>
+        <default>false</default>
+        <label>Claims Made</label>
+    </customValue>
+    <customValue>
+        <fullName>Occurence</fullName>
+        <default>false</default>
+        <label>Occurence</label>
+    </customValue>
+    <masterLabel>Claims Reported Basis</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Life, Accident, and Health</fullName>
+        <default>false</default>
+        <label>Life, Accident, and Health</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical</fullName>
+        <default>false</default>
+        <label>Medical</label>
+    </customValue>
+    <customValue>
+        <fullName>Aviation</fullName>
+        <default>false</default>
+        <label>Aviation</label>
+    </customValue>
+    <customValue>
+        <fullName>Casualty</fullName>
+        <default>false</default>
+        <label>Casualty</label>
+    </customValue>
+    <customValue>
+        <fullName>Marine</fullName>
+        <default>false</default>
+        <label>Marine</label>
+    </customValue>
+    <customValue>
+        <fullName>Property</fullName>
+        <default>false</default>
+        <label>Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Space</fullName>
+        <default>false</default>
+        <label>Space</label>
+    </customValue>
+    <customValue>
+        <fullName>Surety</fullName>
+        <default>false</default>
+        <label>Surety</label>
+    </customValue>
+    <customValue>
+        <fullName>Weather</fullName>
+        <default>false</default>
+        <label>Weather</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi-Line</fullName>
+        <default>false</default>
+        <label>Multi-Line</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering</fullName>
+        <default>false</default>
+        <label>Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Broad description of what lines of business the contract covers</description>
+    <masterLabel>Major Class</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

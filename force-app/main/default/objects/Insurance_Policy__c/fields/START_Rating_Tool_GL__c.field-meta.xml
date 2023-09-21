@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>START_Rating_Tool_GL__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>START Rating Tool GL</label>
+    <referenceTo>START_Rating_Tool__c</referenceTo>
+    <relationshipLabel>Insurance Submission (START Rating Tool GL)</relationshipLabel>
+    <relationshipName>Insurance_Submission</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
